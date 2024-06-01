@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Refund</name>
+   <tag></tag>
+   <elementGuidId>af49ef15-5c93-4e29-8cec-f90c994cd6ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;components-nav-refund&quot;)/li[1]/a[1][count(. | //*[@href = '/refund' and (text() = 'Refund ' or . = 'Refund ')]) = count(//*[@href = '/refund' and (text() = 'Refund ' or . = 'Refund ')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;components-nav-refund&quot;]/li[1]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#components-nav-refund > li > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; Refund&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e141468a-d724-46a2-81e2-3b3f44749b69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/refund</value>
+      <webElementGuid>945838d3-8506-4e0e-b0b0-9ec49f53ba1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Refund </value>
+      <webElementGuid>93c16932-3d5b-4f4e-a43b-7028ed66d247</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;components-nav-refund&quot;)/li[1]/a[1]</value>
+      <webElementGuid>4b3c524d-a321-4c87-9046-5200f52e06c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='components-nav-refund']/li/a</value>
+      <webElementGuid>fc282619-1470-4b94-9530-cf4c2d4bbeb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refund'])[1]/following::a[1]</value>
+      <webElementGuid>79b04b31-0e6e-4be0-b477-77ea4c7845e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unsettled Reconciliation Balance Fluctuations Statistics'])[1]/following::a[2]</value>
+      <webElementGuid>0f8f8d84-711f-445b-9fd1-83278edb6ccf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Installment Refund Request'])[1]/preceding::a[1]</value>
+      <webElementGuid>73ce3c87-f5ee-4389-9c51-b1b0a94c43ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/refund')]</value>
+      <webElementGuid>c9bf50fd-2b19-44c1-8f45-32d1e04ce89f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[8]/ul/li/a</value>
+      <webElementGuid>c3ef3a69-b65f-4549-8443-ef4bf32c6a2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/refund' and (text() = 'Refund ' or . = 'Refund ')]</value>
+      <webElementGuid>48fe6b58-ba3f-408c-8bcb-857654b69701</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
