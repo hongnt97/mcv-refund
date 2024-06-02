@@ -7,14 +7,17 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
+         <value>//*[@id=&quot;main&quot;]/div[2]/div/div[2]/div[2]/button</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;main&quot;]/div[2]/div/div[2]/div[2]/button[count(. | //*[@type = 'button' and (text() = 'Back' or . = 'Back')]) = count(//*[@type = 'button' and (text() = 'Back' or . = 'Back')])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>576ab4dc-b92e-44cf-97e3-8aadeb2f4228</webElementGuid>
+      <webElementGuid>a7b0c15d-f383-4106-ba1c-39b6c288ee23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +40,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>history.back()</value>
-      <webElementGuid>e193f97a-96c3-4040-8500-eb5fe92a1c47</webElementGuid>
+      <webElementGuid>aef24fc7-0aae-49ff-94b0-3d5dd12870d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +48,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>23999892-3a44-4b39-b0f0-b1dc98c157a2</webElementGuid>
+      <webElementGuid>71b0b23b-beba-476e-be93-dca3f32436ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +56,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-btn</value>
-      <webElementGuid>e75c5237-af7b-4f0b-9361-333bdc15ca2d</webElementGuid>
+      <webElementGuid>017fd684-f1bd-4532-a8ef-841bc0c101d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +64,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Back</value>
-      <webElementGuid>08da3a46-fe4c-49ae-ac09-1c4c46da7fd5</webElementGuid>
+      <webElementGuid>d10dbc88-b238-4c29-8f09-4bf34a82e821</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +72,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;main&quot;]/div[2]/div/div[2]/div[2]/button</value>
-      <webElementGuid>9121c34d-7619-455a-a329-fa614c2d6ed7</webElementGuid>
+      <webElementGuid>44112f9a-a0ea-4a61-ba22-426d7c4fd319</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +80,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>ecb19215-94ae-4975-badd-29d1a9653487</webElementGuid>
+      <webElementGuid>3f36e103-e8fe-4a2d-979f-dcffc7a09ebf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div[2]/div[2]/button</value>
-      <webElementGuid>8e28b90b-ddc3-46d6-939c-126bf533a4e6</webElementGuid>
+      <webElementGuid>fa4df128-581b-434f-9603-912974b57659</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Send Request'])[1]/following::button[1]</value>
-      <webElementGuid>4a6866ba-1c8a-4267-af18-564606079dbd</webElementGuid>
+      <webElementGuid>500da906-5db1-4052-b6f1-e72c9092655b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +104,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='—'])[11]/following::button[2]</value>
-      <webElementGuid>937152d6-7b69-4c11-9747-1afc70b82864</webElementGuid>
+      <webElementGuid>3913ad93-72e8-44c3-b9d0-6bc413a7b696</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +112,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button</value>
-      <webElementGuid>d0d7d215-59de-4562-b2e9-dfda39132f1b</webElementGuid>
+      <webElementGuid>57255988-baa9-4c79-8e89-0153b5e996c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +120,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Back' or . = 'Back')]</value>
-      <webElementGuid>f1c483f8-4ab3-4814-9ab0-8fa3ddad4a39</webElementGuid>
+      <webElementGuid>e1a8b4c8-7cf3-4c34-bb28-48e254bad0db</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

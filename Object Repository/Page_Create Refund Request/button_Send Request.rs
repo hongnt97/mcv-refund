@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@type='button']</value>
+         <value>//*[@id=&quot;main&quot;]/div[2]/div/div[2]/div[1]/button</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.ant-btn.ant-btn-primary</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-12&quot;]/button[@class=&quot;ant-btn ant-btn-primary&quot;][count(. | //*[@type = 'button' and (text() = 'Send Request' or . = 'Send Request')]) = count(//*[@type = 'button' and (text() = 'Send Request' or . = 'Send Request')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2fcfd9ab-9098-4529-9704-8bc52baf6114</webElementGuid>
+      <webElementGuid>d6d698ff-9549-4f45-9454-586ecac6a2c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>207b20da-4b47-498e-a54f-a505e8c124d7</webElementGuid>
+      <webElementGuid>fa7b88f4-ad38-4e6e-bc63-e92acb6a44a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-btn ant-btn-primary</value>
-      <webElementGuid>bab9355c-65a0-4433-8f15-c6f78569618e</webElementGuid>
+      <webElementGuid>78308cde-36bf-4f43-83a7-751ed23be7a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Send Request</value>
-      <webElementGuid>2497dba6-bf6d-46aa-85fa-e8cc8543c3bc</webElementGuid>
+      <webElementGuid>24535299-1a1c-4316-b282-7373a4dce75a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-12&quot;]/button[@class=&quot;ant-btn ant-btn-primary&quot;]</value>
-      <webElementGuid>d39cc83c-e53a-447d-8c4a-5f8d5876bd2a</webElementGuid>
+      <webElementGuid>84becaf9-9ac4-43f2-bd4a-00437dc91142</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>83aee629-d9a7-4e79-9895-0141182e0f19</webElementGuid>
+      <webElementGuid>2c970086-71ea-464a-a8fb-a2c0a9db178f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div[2]/div/button</value>
-      <webElementGuid>875c3758-657d-49af-9df9-5af04e14f257</webElementGuid>
+      <webElementGuid>fff0a72c-7d88-4e28-aaf6-933ac8c44f57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='—'])[11]/following::button[1]</value>
-      <webElementGuid>acd106c9-13d0-492f-9872-af382e6b6cc5</webElementGuid>
+      <webElementGuid>94158d65-a5be-48c9-a2f9-3f831fce276f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Client IP'])[1]/following::button[1]</value>
-      <webElementGuid>6ee16522-505a-4dd9-bc9b-040ad739d8f5</webElementGuid>
+      <webElementGuid>4f92d445-fd4a-4639-a857-f5efd97a3a9b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::button[1]</value>
-      <webElementGuid>648abd94-38a6-4999-9af9-ae50a134b358</webElementGuid>
+      <webElementGuid>895163a1-6675-458c-b8aa-481839af5653</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>6561c9ca-9879-4a70-acd0-fe893236f4d6</webElementGuid>
+      <webElementGuid>1843e682-9c4f-4173-9ebf-e1a089862466</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +121,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Send Request' or . = 'Send Request')]</value>
-      <webElementGuid>8b52a834-eed1-4c6b-9572-5eb85177e1ae</webElementGuid>
+      <webElementGuid>4c96da86-42f5-4290-92e1-2cd4d1dbfa52</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

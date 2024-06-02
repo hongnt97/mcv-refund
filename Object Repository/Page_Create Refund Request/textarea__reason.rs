@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='main']/div[2]/div/div/div/form/div[8]/div[2]/div/span/textarea</value>
+         <value>//*[@id=&quot;main&quot;]/div[2]/div/div[1]/div[1]/form/div[8]/div[2]/div/span/textarea</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>textarea.color-black.ant-input</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/textarea[@class=&quot;color-black ant-input&quot;]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>textarea</value>
-      <webElementGuid>a640572b-65f7-4b46-bdd5-50dfca181d59</webElementGuid>
+      <webElementGuid>8cd5ce60-9cb1-4019-ad4e-944c03754ada</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>255</value>
-      <webElementGuid>f8729587-1b3b-46c6-9b36-2114c3536a0d</webElementGuid>
+      <webElementGuid>15d740ec-bf6d-4b88-9d78-8a78e7deb83f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>class</name>
       <type>Main</type>
       <value>color-black ant-input</value>
-      <webElementGuid>ff0f4c5a-c561-4608-b2ef-6b3c3bafaf82</webElementGuid>
+      <webElementGuid>8aab1f6f-dbf9-4684-89cb-e62cab3e2dfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/textarea[@class=&quot;color-black ant-input&quot;]</value>
-      <webElementGuid>bd9188c7-0e63-4564-816e-ee4df3408f83</webElementGuid>
+      <webElementGuid>7a13858b-e9dd-427a-8630-7d9703dbd987</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div/form/div[8]/div[2]/div/span/textarea</value>
-      <webElementGuid>8f14d236-cee4-4512-b4c3-df340f486c6f</webElementGuid>
+      <webElementGuid>ae05ab5a-b5a5-4b82-969a-bc11c18b75d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,6 +73,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//textarea</value>
-      <webElementGuid>76fc3f81-9fd6-455a-9d69-55b0915b48e2</webElementGuid>
+      <webElementGuid>be57bcca-c401-44ad-ad97-4ce3fedfd1d7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

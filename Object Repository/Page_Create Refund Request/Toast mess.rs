@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[4]</value>
+         <value>/html/body/div[2]/span/div/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>div.ant-notification-notice-with-icon</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[1]/body[1]/div[@class=&quot;ant-notification ant-notification-topRight&quot;]/span[1]/div[@class=&quot;ant-notification-notice ant-notification-notice-closable&quot;]/div[@class=&quot;ant-notification-notice-content&quot;]/div[@class=&quot;ant-notification-notice-with-icon&quot;][count(. | //*[(text() = 'NotificationRefund request created successfully' or . = 'NotificationRefund request created successfully')]) = count(//*[(text() = 'NotificationRefund request created successfully' or . = 'NotificationRefund request created successfully')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>61624bd9-8a83-4815-91e4-533ac0a2cbd3</webElementGuid>
+      <webElementGuid>961acb5d-fbbe-4f9b-b710-45c903c3ed66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-notification-notice-with-icon</value>
-      <webElementGuid>d879e765-88c9-44f5-82a2-cc1366a9d72f</webElementGuid>
+      <webElementGuid>aec711f3-ae72-4d12-919a-294f69d6cafa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>NotificationRefund request created successfully</value>
-      <webElementGuid>96d1efaa-cd07-415e-b9d1-22120cf2293c</webElementGuid>
+      <webElementGuid>9e49d818-917d-41ad-bbc7-408c75e5f1a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;ant-notification ant-notification-topRight&quot;]/span[1]/div[@class=&quot;ant-notification-notice ant-notification-notice-closable&quot;]/div[@class=&quot;ant-notification-notice-content&quot;]/div[@class=&quot;ant-notification-notice-with-icon&quot;]</value>
-      <webElementGuid>73640c3e-1ed2-407e-8b04-bfbd21c21a42</webElementGuid>
+      <webElementGuid>ee463c29-2da6-4f31-815a-3e2d15870426</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[4]</value>
-      <webElementGuid>365f3f2b-5912-41f6-8925-b87fed0ec9df</webElementGuid>
+      <webElementGuid>b7e56bbc-910c-4c51-af6d-1ec90dfe8a69</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/span/div/div/div</value>
-      <webElementGuid>363d30a8-8e4c-42d6-bd33-ca2a2d83ec23</webElementGuid>
+      <webElementGuid>6e0f1ffc-8874-44b5-876f-cb58235ae563</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'NotificationRefund request created successfully' or . = 'NotificationRefund request created successfully')]</value>
-      <webElementGuid>1d5082f7-26da-46f8-9b03-1c1d1d94379c</webElementGuid>
+      <webElementGuid>89b33629-a03a-451f-a8e0-e1949525792a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

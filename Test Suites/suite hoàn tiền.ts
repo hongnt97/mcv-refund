@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>suite hoàn tiền</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>5b6ee5b3-80fe-4829-9db5-18854c629acf</testSuiteGuid>
+   <testCaseLink>
+      <guid>58592e58-bc29-4475-b809-a8bbfeb695d1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Full refund_ thanh cong 1</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>af3a59a2-40e7-4363-a5e2-b2a39ba6198d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_hoan tien toan phan thanh cong</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>af3a59a2-40e7-4363-a5e2-b2a39ba6198d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>7c42f2d9-e273-498d-9ecd-a367892fd0b3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>af3a59a2-40e7-4363-a5e2-b2a39ba6198d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>722f5ed2-57be-4d25-ad40-720bcc0559b7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>af3a59a2-40e7-4363-a5e2-b2a39ba6198d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>input_transactionid</value>
+         <variableId>f6cd6983-25b6-4d9f-a3b5-43c4dfc2de44</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>af3a59a2-40e7-4363-a5e2-b2a39ba6198d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected_msg</value>
+         <variableId>378287b8-04b9-4b6b-b781-5700f633cab0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>af3a59a2-40e7-4363-a5e2-b2a39ba6198d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>input_reason</value>
+         <variableId>8bea62f5-ec29-47df-a5f1-94cf1e55f7dc</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
