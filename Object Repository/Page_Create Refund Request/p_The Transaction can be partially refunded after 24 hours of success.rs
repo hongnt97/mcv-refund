@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>55889f40-0443-4368-848f-fb0d6640a55d</webElementGuid>
+      <webElementGuid>04f4ccc5-de78-4f3d-b110-22313fc0feb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>f-13</value>
-      <webElementGuid>9cb5d531-4579-4ff9-abd7-2b75a2ddf57e</webElementGuid>
+      <webElementGuid>86bbc4fd-fbb2-451c-8b05-135d797dd21c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>The Transaction can be partially refunded after 24 hours of success.</value>
-      <webElementGuid>fd52dda0-a66c-4f2e-8c6f-91a32e86a909</webElementGuid>
+      <webElementGuid>868737b1-8d9a-4d63-87da-5a6573653cd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control has-success&quot;]/span[@class=&quot;ant-form-item-children&quot;]/p[@class=&quot;f-13&quot;]</value>
-      <webElementGuid>b4e2ec82-11e3-44d0-8cac-736127c6a2cb</webElementGuid>
+      <webElementGuid>db6877ea-2243-4fb7-851d-37b411872211</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div/form/div[4]/div[2]/div/span/p</value>
-      <webElementGuid>5a79b94d-cc79-4648-98e7-f7483b0ce256</webElementGuid>
+      <webElementGuid>0132eedc-abe1-4c5f-919d-a5decb03b04a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Partial refund'])[1]/following::p[1]</value>
-      <webElementGuid>c6538695-55c7-4882-923f-84de93d044c2</webElementGuid>
+      <webElementGuid>93e0cdbd-54ad-4870-a18f-148d0abc3265</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Full refund'])[1]/following::p[1]</value>
-      <webElementGuid>5b0f2dd9-0a4a-4063-8ee3-27154c414eb8</webElementGuid>
+      <webElementGuid>48395191-9160-445d-89e0-9aea6a329bbb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::p[1]</value>
-      <webElementGuid>3cfda30d-ecad-4d01-9c9c-e1aac59d10c5</webElementGuid>
+      <webElementGuid>33b8c02c-36ce-48fc-8206-22996e5786d4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='The Transaction can be partially refunded after 24 hours of success.']/parent::*</value>
-      <webElementGuid>f5c5d0d7-4b11-44f2-a714-657f5d53c38a</webElementGuid>
+      <webElementGuid>aab2e400-fc63-4999-8d05-5708b44e21d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p</value>
-      <webElementGuid>beb11692-f423-4abc-9f13-4919c1f51faa</webElementGuid>
+      <webElementGuid>99f96f08-04dd-431b-84bf-6eeef09d8d1d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'The Transaction can be partially refunded after 24 hours of success.' or . = 'The Transaction can be partially refunded after 24 hours of success.')]</value>
-      <webElementGuid>a59d4219-f264-4981-954b-7b492939940e</webElementGuid>
+      <webElementGuid>26a8e56d-38a0-4ccf-ba2d-1cce84f6f799</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

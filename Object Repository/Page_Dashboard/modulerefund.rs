@@ -6,12 +6,12 @@
    <elementGuidId>2105a6f4-5bd8-4e39-8bf0-bf2e19a99ea5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;nav-item-refund&quot;)/a[@class=&quot;nav-link&quot;][count(. | //*[@href = '#' and (text() = 'Refund' or . = 'Refund')]) = count(//*[@href = '#' and (text() = 'Refund' or . = 'Refund')])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;nav-item-refund&quot;]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;nav-item-refund&quot;)/a[@class=&quot;nav-link&quot;][count(. | //*[@href = '#' and (text() = 'Refund' or . = 'Refund')]) = count(//*[@href = '#' and (text() = 'Refund' or . = 'Refund')])]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b685eedd-58a4-4548-b203-61baa11d9f37</webElementGuid>
+      <webElementGuid>006f97f7-dc60-42ec-9227-edc65233dd50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>3e91987b-b5d3-467c-b062-0e75692053e2</webElementGuid>
+      <webElementGuid>4c2922d7-9bd8-433c-8a7b-8befd6fbadfe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>data-bs-target</name>
       <type>Main</type>
       <value>#components-nav-refund</value>
-      <webElementGuid>870440f6-9c96-486b-bf1e-f132b26ee107</webElementGuid>
+      <webElementGuid>f833ebe3-7ccc-47fd-9776-5727a2c693cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>data-bs-toggle</name>
       <type>Main</type>
       <value>collapse</value>
-      <webElementGuid>ca2e9e37-146f-49bb-a0d2-f22ac2a090b8</webElementGuid>
+      <webElementGuid>874b3529-2613-47fd-8cb8-9fc1c57a4da7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>4678df08-68c2-462c-bc28-2543fa2d968f</webElementGuid>
+      <webElementGuid>968ae6f4-2819-4732-8f1b-e6b39f28c068</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>df0ca573-7b13-4761-8f34-87d05177b331</webElementGuid>
+      <webElementGuid>63e33bde-fdf5-4bf0-aff7-28444ef4e750</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -81,7 +81,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Refund</value>
-      <webElementGuid>606ce764-5640-4221-80e1-09f217c2748d</webElementGuid>
+      <webElementGuid>41636f10-8bec-4106-b5f5-71adc37ffe68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;nav-item-refund&quot;)/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>2a7b33c8-420f-4ba7-8780-a6291911e685</webElementGuid>
+      <webElementGuid>cac6f1ff-420b-4002-8dde-bf891c389ea0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='nav-item-refund']/a</value>
-      <webElementGuid>3160b1d4-a92a-4304-b74e-caff67ce4ba3</webElementGuid>
+      <webElementGuid>a2d4b1f8-9a44-468c-9b54-0cb2a2e6712b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unsettled Reconciliation Balance Fluctuations Statistics'])[1]/following::a[1]</value>
-      <webElementGuid>3922011d-c90a-4563-b9fe-c0cf6949d2fa</webElementGuid>
+      <webElementGuid>4fa06038-02ab-4373-b643-0f5603b6eca2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction Search'])[1]/following::a[2]</value>
-      <webElementGuid>125eea76-0c43-4d1a-b4ee-6bfab0855713</webElementGuid>
+      <webElementGuid>e004c49d-6089-4515-9f05-551c6617fbf0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Refund'])[2]/preceding::a[1]</value>
-      <webElementGuid>af6d8974-625c-44ea-bad9-1202d732d092</webElementGuid>
+      <webElementGuid>20dfdbf2-9dd8-4ab0-83da-ba996836f266</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -129,7 +129,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[8]</value>
-      <webElementGuid>4a3954b4-e039-4269-bda1-be12c5adf094</webElementGuid>
+      <webElementGuid>c1d3f3bd-f9fc-4f75-a833-e635a7ffd5c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -137,7 +137,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[8]/a</value>
-      <webElementGuid>d7a8ee9d-a546-4cf5-93b3-0b0a3a197f62</webElementGuid>
+      <webElementGuid>474ea41c-5b96-4806-9269-148d128edad0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -145,6 +145,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Refund' or . = 'Refund')]</value>
-      <webElementGuid>6a6099c5-99a4-49f9-9dcb-d84e34b2ee55</webElementGuid>
+      <webElementGuid>55b3ffb1-90ef-4c6d-864a-b2111155ac52</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

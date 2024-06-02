@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>b9c80e38-1045-44f5-9243-0ea37f3acb8d</webElementGuid>
+      <webElementGuid>2f72c0cf-1047-4b84-9348-f02316e2bcdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-col ant-col-8</value>
-      <webElementGuid>28a70602-f35b-4ebb-86ce-1610c4c840f1</webElementGuid>
+      <webElementGuid>ba369535-8f53-4963-a5a6-5a9b70ad0a72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Updated date </value>
-      <webElementGuid>d5012580-ff96-4fff-a929-7585611b0ae2</webElementGuid>
+      <webElementGuid>66a4f64c-b4a4-4ee6-9c4f-83d0bb2e7a9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pl-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-8&quot;]</value>
-      <webElementGuid>0a31f033-90bf-4e43-8613-51c917467aa6</webElementGuid>
+      <webElementGuid>51231773-76cc-4b7c-b6bb-bcfe760bcc67</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div[2]/div[4]/div</value>
-      <webElementGuid>b93bc37b-c42b-41ac-92ac-1f136f05cc17</webElementGuid>
+      <webElementGuid>528c90de-5003-402a-b774-bdba89b1a58b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='—'])[3]/following::div[2]</value>
-      <webElementGuid>2f6a7d6e-18a7-487e-acfa-d44c652bbeef</webElementGuid>
+      <webElementGuid>3c0f84ce-9c10-4e3d-9edf-b3a90c1f8bf3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type of transaction'])[1]/following::div[3]</value>
-      <webElementGuid>fd398e09-15d0-4e6c-ad58-f65fe33b46c4</webElementGuid>
+      <webElementGuid>b5063a29-326a-497b-9379-494df7d24ed7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='—'])[4]/preceding::div[1]</value>
-      <webElementGuid>0bad0236-d649-49b7-b3c9-845ffb632431</webElementGuid>
+      <webElementGuid>ad2ea92f-7284-45cc-8369-99112540336c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount'])[1]/preceding::div[2]</value>
-      <webElementGuid>884d58b3-31ab-47e7-93b1-0f3999e93ebd</webElementGuid>
+      <webElementGuid>09c58e52-8239-4c1b-8364-723372fe8b68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Updated date']/parent::*</value>
-      <webElementGuid>73c77ad3-bb55-4e92-bfb8-663b78b7728d</webElementGuid>
+      <webElementGuid>7d5f8c7a-d4eb-4570-b33e-1aada3231b35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[4]/div</value>
-      <webElementGuid>70ab1e78-9c29-4234-a168-252fc86e53fd</webElementGuid>
+      <webElementGuid>c491238d-0a72-4d99-89b5-595c906be39b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +116,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Updated date ' or . = ' Updated date ')]</value>
-      <webElementGuid>d20f8d16-5517-48cf-be54-076d8e30f419</webElementGuid>
+      <webElementGuid>ad5c4962-9133-47c5-a129-ca213f9e01f7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

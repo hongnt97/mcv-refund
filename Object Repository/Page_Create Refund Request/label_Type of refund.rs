@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>e249b8b6-ebcf-49ca-84be-0c339e0a799a</webElementGuid>
+      <webElementGuid>6215ffe5-ce18-45b1-a626-da129212ecab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Type of refund</value>
-      <webElementGuid>3ff157ad-9d16-4c53-999b-8b7f2a35b797</webElementGuid>
+      <webElementGuid>366695bc-baf5-4540-9e09-21f316e05253</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Type of refund</value>
-      <webElementGuid>275c70f8-9c1a-4c9a-bef8-e52e47dad569</webElementGuid>
+      <webElementGuid>c5afd58a-67f1-4575-a4eb-220d619f85cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-6 ant-form-item-label&quot;]/label[1]</value>
-      <webElementGuid>25c0078b-0d51-46d3-ad68-ea9fbc1ac12b</webElementGuid>
+      <webElementGuid>758ef117-7694-4109-871c-3bdc9141b479</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div/form/div[4]/div/label</value>
-      <webElementGuid>4feb7780-d77b-420b-b393-8851e3a12fb6</webElementGuid>
+      <webElementGuid>9523608c-3f7e-4952-ab06-6f0f6becf8de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount has been refunded'])[1]/following::label[1]</value>
-      <webElementGuid>08806de8-2930-4cb2-8ddb-0314ddbb7dc0</webElementGuid>
+      <webElementGuid>c3846e28-b014-49de-8407-86162117bea5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction amount'])[1]/following::label[2]</value>
-      <webElementGuid>b1652d63-0c8b-4c46-ac68-96ab405c43d1</webElementGuid>
+      <webElementGuid>7cbfc4d4-e86b-4fda-9255-18ce293375cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Full refund'])[1]/preceding::label[1]</value>
-      <webElementGuid>e4ca305d-9eee-4c91-80bd-c89e3eabaa2a</webElementGuid>
+      <webElementGuid>005ab82d-c4a5-448e-8e9c-00e82a4d8563</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Partial refund'])[1]/preceding::label[2]</value>
-      <webElementGuid>931e60f4-1e56-4394-ba1d-11d572005543</webElementGuid>
+      <webElementGuid>507d646d-8fea-4e97-98a0-f64c357ffe2d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Type of refund']/parent::*</value>
-      <webElementGuid>7aa5228e-2f26-4a0f-9404-84be02ab8496</webElementGuid>
+      <webElementGuid>d1361350-69ce-48db-9438-eed0b4b908e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/div/label</value>
-      <webElementGuid>132d8204-f005-4c15-94b2-c8f9a01918f1</webElementGuid>
+      <webElementGuid>7c8449b2-c63e-4832-a207-dbed32527d75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[@title = 'Type of refund' and (text() = 'Type of refund' or . = 'Type of refund')]</value>
-      <webElementGuid>e9f0083c-b197-4030-9def-62e1c3aec1d8</webElementGuid>
+      <webElementGuid>29c31c44-a39c-4035-9a49-bb1581cc6fcd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

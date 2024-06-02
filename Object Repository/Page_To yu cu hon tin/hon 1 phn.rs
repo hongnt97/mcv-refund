@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Full refund</name>
+   <name>hon 1 phn</name>
    <tag></tag>
-   <elementGuidId>a351af0f-92c8-4f49-bf2b-dae6b7887575</elementGuidId>
+   <elementGuidId>5730e514-8e3b-4009-8128-1c791a46c0fa</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;main&quot;]/div[2]/div/div[1]/div[1]/form/div[4]/div[2]/div/span/div/div/div[1]/label/span[1]/input</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/div[@class=&quot;row ant-radio-group ant-radio-group-outline ant-radio-group-default&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-xl-12&quot;]/label[@class=&quot;ant-radio-wrapper&quot;]/span[@class=&quot;ant-radio&quot;]/span[@class=&quot;ant-radio-inner&quot;]</value>
+         <value>//main[@id='main']/div[2]/div/div/div/form/div[4]/div[2]/div/span/div/div/div[2]/label/span/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>span.ant-radio-inner</value>
+         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>label >> internal:has-text=&quot;Full refund&quot;i >> span >> nth=1</value>
+         <value>label >> internal:has-text=&quot;Hoàn một phần&quot;i >> span >> nth=1</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -33,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>bac7cdda-ee85-43a8-a585-48743b37a239</webElementGuid>
+      <webElementGuid>eb941f12-7192-4861-aab8-7987dfa34939</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-radio-inner</value>
-      <webElementGuid>a69fafd2-0503-4e6d-8f7e-ee1e9cf90ea8</webElementGuid>
+      <webElementGuid>bc9db0c3-307e-424e-9dbf-f684fd7f6829</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,22 +45,22 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/div[@class=&quot;row ant-radio-group ant-radio-group-outline ant-radio-group-default&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-xl-12&quot;]/label[@class=&quot;ant-radio-wrapper&quot;]/span[@class=&quot;ant-radio&quot;]/span[@class=&quot;ant-radio-inner&quot;]</value>
-      <webElementGuid>297797f5-8c6b-43fe-8a6e-cb01eeed48dc</webElementGuid>
+      <webElementGuid>9eebbfdc-e573-44a7-96ba-ea2bebfb080c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//main[@id='main']/div[2]/div/div/div/form/div[4]/div[2]/div/span/div/div/div/label/span/span</value>
-      <webElementGuid>4e6917b2-d28c-4a4d-b624-67f698739517</webElementGuid>
+      <value>//main[@id='main']/div[2]/div/div/div/form/div[4]/div[2]/div/span/div/div/div[2]/label/span/span</value>
+      <webElementGuid>5a92fb93-b3d4-4d9e-8691-5d148ba2de8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div/div/div/label/span/span</value>
-      <webElementGuid>fb074209-96b6-4c30-9ded-131c151b3f17</webElementGuid>
+      <value>//div[2]/label/span/span</value>
+      <webElementGuid>cb2631fb-37dd-458b-858a-bf052a7ca3d8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>961acb5d-fbbe-4f9b-b710-45c903c3ed66</webElementGuid>
+      <webElementGuid>86b48c82-f5e7-417e-af85-26e15f2edf57</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-notification-notice-with-icon</value>
-      <webElementGuid>aec711f3-ae72-4d12-919a-294f69d6cafa</webElementGuid>
+      <webElementGuid>7a46c7e5-05ae-4ecb-ae50-834e4f82c726</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>NotificationRefund request created successfully</value>
-      <webElementGuid>9e49d818-917d-41ad-bbc7-408c75e5f1a0</webElementGuid>
+      <webElementGuid>57f596a8-3288-481e-8ebb-b7985a9acd73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;ant-notification ant-notification-topRight&quot;]/span[1]/div[@class=&quot;ant-notification-notice ant-notification-notice-closable&quot;]/div[@class=&quot;ant-notification-notice-content&quot;]/div[@class=&quot;ant-notification-notice-with-icon&quot;]</value>
-      <webElementGuid>ee463c29-2da6-4f31-815a-3e2d15870426</webElementGuid>
+      <webElementGuid>cfee300d-6a1a-4b5f-8a45-0d7c235ed428</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[4]</value>
-      <webElementGuid>b7e56bbc-910c-4c51-af6d-1ec90dfe8a69</webElementGuid>
+      <webElementGuid>0ad56d08-211f-4852-a1b6-df8e190926ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/span/div/div/div</value>
-      <webElementGuid>6e0f1ffc-8874-44b5-876f-cb58235ae563</webElementGuid>
+      <webElementGuid>6c382cf2-4cbe-4ef0-89ae-90bd45dc5719</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,6 +81,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'NotificationRefund request created successfully' or . = 'NotificationRefund request created successfully')]</value>
-      <webElementGuid>89b33629-a03a-451f-a8e0-e1949525792a</webElementGuid>
+      <webElementGuid>f67ad951-74a8-45eb-b91e-26d9582a1ba4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

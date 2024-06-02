@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ea3823b7-7e49-40d9-b9ad-b69fe7bd1dc3</webElementGuid>
+      <webElementGuid>6d58dc2a-e80b-47fd-81c7-fdc97584771b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-form-explain</value>
-      <webElementGuid>c69151a7-3032-437d-a795-8e2fcc975c7e</webElementGuid>
+      <webElementGuid>8e13edec-9908-4500-8637-11a47ffdb312</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Transaction ID is required</value>
-      <webElementGuid>f440b2db-77c8-432e-8a24-c653dd243dbc</webElementGuid>
+      <webElementGuid>3ef06b86-fa54-4797-a219-d4be8858c387</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item ant-form-item-with-help&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control has-error&quot;]/div[@class=&quot;ant-form-explain&quot;]</value>
-      <webElementGuid>c060ef98-8332-486e-959d-e0a9fc20afc7</webElementGuid>
+      <webElementGuid>7a8b6ebe-4fe6-4f09-a3d1-a706bb3c4aa4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div/form/div/div[2]/div/div</value>
-      <webElementGuid>cc12cb5d-0d7a-488e-b11a-c7cf7db9b2d5</webElementGuid>
+      <webElementGuid>39b7fdc2-a0fd-4011-835c-b6cae3ef6b93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::div[3]</value>
-      <webElementGuid>93cc56b7-cfa3-4a39-a311-804b5fa8b8ac</webElementGuid>
+      <webElementGuid>0940b257-4eab-42da-84c6-d46b08b0bacd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction amount'])[1]/preceding::div[1]</value>
-      <webElementGuid>5f3066da-950b-464b-a64c-c568d4af34c1</webElementGuid>
+      <webElementGuid>3887ff89-cc5e-44d8-a23d-eb27e4d101c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Amount has been refunded'])[1]/preceding::div[8]</value>
-      <webElementGuid>b43f6f58-56b8-4812-a7ed-9418d0cfb77a</webElementGuid>
+      <webElementGuid>d20d33bd-8292-4f73-a32c-aec97111a842</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Transaction ID is required']/parent::*</value>
-      <webElementGuid>4682e181-4c4a-4094-87e4-058c2b69278e</webElementGuid>
+      <webElementGuid>82830ba4-6219-4aca-a14f-f5222f38ebcc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div[2]/div/div</value>
-      <webElementGuid>bb0acc9a-0867-46d5-a2f5-ee7e7aad863a</webElementGuid>
+      <webElementGuid>563fca2b-e792-47a0-8782-9f15fb69f0a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Transaction ID is required' or . = 'Transaction ID is required')]</value>
-      <webElementGuid>9309f2ea-25bb-4769-9ab6-6be9fe232b80</webElementGuid>
+      <webElementGuid>2a7867f2-6f7a-4be0-b812-dec1e1c30a7c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

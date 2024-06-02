@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ee3cbd58-3ef6-4e0d-b2ee-1fcf3167364c</webElementGuid>
+      <webElementGuid>2239eff0-0ccc-4900-b0a6-125cfb752b35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-col ant-col-8</value>
-      <webElementGuid>ada530ae-016d-4285-9488-d9b7840fb7c4</webElementGuid>
+      <webElementGuid>5a655eb9-60c7-45c8-85de-22e236550643</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Type of transaction </value>
-      <webElementGuid>d1403cf3-e247-4644-8458-056fd9d21af4</webElementGuid>
+      <webElementGuid>4206523a-4b0b-438e-8a42-3f8db7915366</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pl-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-8&quot;]</value>
-      <webElementGuid>eb000933-4128-4861-8a00-77c7e58b43de</webElementGuid>
+      <webElementGuid>cf09241f-2f39-4685-a69c-2ee959a9e533</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div[2]/div[3]/div</value>
-      <webElementGuid>6e3906fc-2210-449a-9384-9687c8818e39</webElementGuid>
+      <webElementGuid>6a52e08b-b83d-42ce-ba12-581fcb4cffce</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='—'])[2]/following::div[2]</value>
-      <webElementGuid>0b7c546a-79b0-4ca9-91a1-8d9caaedec92</webElementGuid>
+      <webElementGuid>d51dd6df-a4d1-4b6c-bd7e-0292c4934b4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Order reference code'])[1]/following::div[3]</value>
-      <webElementGuid>4bf85edd-2bbe-4d6b-81b1-066f10b4b89b</webElementGuid>
+      <webElementGuid>cdb02638-f5ee-4bea-afb0-316847e9fe06</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='—'])[3]/preceding::div[1]</value>
-      <webElementGuid>705c9d64-a1e8-407a-aeeb-b66f33a33210</webElementGuid>
+      <webElementGuid>54eecf15-399b-4f50-b38e-eeaf016979ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Updated date'])[1]/preceding::div[2]</value>
-      <webElementGuid>bfdc5210-681f-41c1-8af0-0f57fcf4ee68</webElementGuid>
+      <webElementGuid>cd15d34f-0fcd-4b8c-827f-fa7d16b4afaf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Type of transaction']/parent::*</value>
-      <webElementGuid>d42f2f2f-2272-434b-abf7-74e347f8f1ff</webElementGuid>
+      <webElementGuid>fda11b9a-c8b2-4b53-a393-a087b8cdc1a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[3]/div</value>
-      <webElementGuid>1b370019-fb53-458a-bc98-4fadf4390303</webElementGuid>
+      <webElementGuid>8c93dfcc-902c-41e8-a65f-0d08076aac52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +116,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Type of transaction ' or . = ' Type of transaction ')]</value>
-      <webElementGuid>a1cfaf8c-5a16-47d8-917a-a8e71a961ffa</webElementGuid>
+      <webElementGuid>906edd00-65ab-4bce-b97e-47bb413a3897</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

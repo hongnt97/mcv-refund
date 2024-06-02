@@ -6,15 +6,19 @@
    <elementGuidId>d0710855-e6b5-476e-be7f-150ecdf10ba8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;main&quot;]/div[2]/div/div[1]/div[1]/form/div[2]/div[2]/div/span/div/div[2]/input</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

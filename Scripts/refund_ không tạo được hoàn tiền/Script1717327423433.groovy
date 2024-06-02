@@ -21,9 +21,9 @@ WebUI.openBrowser('https://dev-mcv2.9pay.mobi/')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_Account 9Pay/input_username'), 'mch2')
+WebUI.setText(findTestObject('Page_Account 9Pay/input_username'), username)
 
-WebUI.setText(findTestObject('Page_Account 9Pay/input_password'), 'Abc@12345')
+WebUI.setText(findTestObject('Page_Account 9Pay/input_password'), password)
 
 WebUI.click(findTestObject('Page_Account 9Pay/button_login'))
 
@@ -33,28 +33,11 @@ WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
 
 WebUI.click(findTestObject('Page_Refund Request List/button_Add'))
 
-WebUI.setText(findTestObject('Page_Create Refund Request/input__transactionid'), '62549005267075')
+WebUI.setText(findTestObject('Page_Create Refund Request/input__transactionid'), input_transactionid)
 
 WebUI.enableSmartWait()
 
-WebUI.verifyElementText(findTestObject('Page_Create Refund Request/p_The Transaction can be partially refunded after 24 hours of success'), 
-    'Giao dịch có thể tạo hoàn 1 phần sau 24 giờ giao dịch thành công.')
-
-WebUI.verifyElementChecked(findTestObject('Page_Create Refund Request/Full refund'), 10)
-
-WebUI.verifyElementClickable(findTestObject('Page_To yu cu hon tin/hon 1 phn'))
-
-WebUI.setText(findTestObject('Page_Create Refund Request/textarea__reason'), 'hoan tien GD auto')
-
-WebUI.click(findTestObject('Page_Create Refund Request/button_Send Request'))
-
-WebUI.enableSmartWait()
-
-alertText = WebUI.getAlertText()
-
-WebUI.verifyMatch(alertText, 'Thông báo Thêm yêu cầu hoàn tiền thành công', false)
-
-WebUI.getAlertText()
+WebUI.verifyTextPresent(expect_msg, false)
 
 WebUI.closeBrowser()
 

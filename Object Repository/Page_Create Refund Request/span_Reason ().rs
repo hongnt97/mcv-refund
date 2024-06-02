@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>3d1e7767-2a70-4cc2-8959-d6da965c96c6</webElementGuid>
+      <webElementGuid>74608606-b95a-426e-9dda-ef37e43e1d9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +36,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Reason (*)</value>
-      <webElementGuid>50ae8065-c3fe-4180-8693-3670af11ae7f</webElementGuid>
+      <webElementGuid>bb8f9bc9-e104-4137-8aec-d559e92485c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;main&quot;]/div[2]/div/div[1]/div[1]/form/div[8]/div[1]/label/span</value>
-      <webElementGuid>465b7247-8b0d-420a-b039-43aaf8cdc85b</webElementGuid>
+      <webElementGuid>09ff9308-d2eb-482b-b465-33fea5e3314a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div/form/div[8]/div/label/span</value>
-      <webElementGuid>5fb4d43c-7247-4aa6-b6db-3a1ba9bbcda6</webElementGuid>
+      <webElementGuid>6a13e414-128d-488b-93e0-e1bb3f28db6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Refunded transaction processing fee'])[1]/following::span[2]</value>
-      <webElementGuid>832c1d3f-1405-463b-b2b3-66fd6d6320db</webElementGuid>
+      <webElementGuid>0b47e895-cb2a-4290-ae7c-5af0c91619dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Refunded payment fee'])[1]/following::span[3]</value>
-      <webElementGuid>c95cba87-0fe9-41ba-ab69-d7004909663f</webElementGuid>
+      <webElementGuid>68a5980f-23b1-4e1b-a4f6-a7b48ccc7ebc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reason is required'])[1]/preceding::span[3]</value>
-      <webElementGuid>76ddaf51-1e8c-4983-b77e-f491de9b8e98</webElementGuid>
+      <webElementGuid>5e8ca987-8c1a-4c9a-9eb0-9d2bfcbc93fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Reason (']/parent::*</value>
-      <webElementGuid>bd904d31-fdea-4245-a809-f2e1e3fbc2fb</webElementGuid>
+      <webElementGuid>917f5986-e67f-4721-af68-8f8fdef29f6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div/label/span</value>
-      <webElementGuid>bd2c9a07-35d3-4959-ba43-20ec2a2c56e0</webElementGuid>
+      <webElementGuid>ce2b76e4-e364-4822-bf47-fb5055a52c00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +100,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Reason (*)' or . = 'Reason (*)')]</value>
-      <webElementGuid>82e723f6-efce-4288-893e-e87f6e86fd2b</webElementGuid>
+      <webElementGuid>3f937547-b946-4521-bbea-b5628ae82a47</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

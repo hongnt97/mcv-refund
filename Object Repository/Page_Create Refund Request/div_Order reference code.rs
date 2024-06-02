@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>19fbd58d-e6ec-496f-b619-d19a153d5e50</webElementGuid>
+      <webElementGuid>9a45027d-2059-410b-ae14-9bf63d722d48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-col ant-col-8</value>
-      <webElementGuid>88503e5e-ddb3-40e3-a56f-28070bd50795</webElementGuid>
+      <webElementGuid>f7c7315e-afaf-479d-b412-47e7ca4d87e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Order reference code </value>
-      <webElementGuid>4b8c3372-0ef3-493e-a102-5bf81fe7237d</webElementGuid>
+      <webElementGuid>9fdc01c4-2706-45a0-b60f-12a6b772a5da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pl-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-8&quot;]</value>
-      <webElementGuid>70601e86-67cc-4edf-ad62-0a763a385d06</webElementGuid>
+      <webElementGuid>510ee7da-1a1c-4a6e-817b-56bea92f36f3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div[2]/div[2]/div</value>
-      <webElementGuid>518bcc46-4631-4cfe-92bb-eac7194c25e5</webElementGuid>
+      <webElementGuid>82bbe5bb-4fc9-4e29-bdac-2e1604f84755</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='—'])[1]/following::div[2]</value>
-      <webElementGuid>83730e3c-db95-4821-9cd3-8b2b440fbb86</webElementGuid>
+      <webElementGuid>05a4770f-e46c-41f8-ba4a-69849bb43d01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Transaction ID'])[1]/following::div[3]</value>
-      <webElementGuid>e5c6a2cf-fbc1-4f06-a721-94e107e3619a</webElementGuid>
+      <webElementGuid>5f0307b8-80bf-4c3e-a2f1-3c5e1370d5e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='—'])[2]/preceding::div[1]</value>
-      <webElementGuid>59558f04-2e95-47b7-a05a-6cc7b1469cee</webElementGuid>
+      <webElementGuid>fdf82e6b-a860-468e-9155-795c1303beff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type of transaction'])[1]/preceding::div[2]</value>
-      <webElementGuid>f25db42f-04eb-496a-bd01-68e516ff2969</webElementGuid>
+      <webElementGuid>9c1b0030-c5b6-4e8b-b67c-215517371ba1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Order reference code']/parent::*</value>
-      <webElementGuid>05dbcd9b-e58b-4f4d-8225-454062ee9662</webElementGuid>
+      <webElementGuid>0a753733-0ed2-4ab4-919a-3b69e5198e86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/div</value>
-      <webElementGuid>83a65164-ac08-4ce0-ad51-dcbf66c0ac80</webElementGuid>
+      <webElementGuid>60fe92b4-6edf-4e78-b54b-0769e1b4734d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +116,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Order reference code ' or . = ' Order reference code ')]</value>
-      <webElementGuid>9b42b4ef-aad0-4907-ab27-a24d94097d10</webElementGuid>
+      <webElementGuid>46b94a32-2583-4055-91ab-8beeb3cc9b12</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

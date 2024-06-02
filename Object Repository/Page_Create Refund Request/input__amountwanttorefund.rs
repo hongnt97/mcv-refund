@@ -6,12 +6,12 @@
    <elementGuidId>24f042a3-f676-47b4-9b49-631882b41478</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/input[@class=&quot;w-100 color-black ant-input&quot;][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;main&quot;]/div[2]/div/div[1]/div[1]/form/div[5]/div[2]/div/span/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/input[@class=&quot;w-100 color-black ant-input&quot;][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c94a3161-07b9-4af1-aecf-84d599900d86</webElementGuid>
+      <webElementGuid>82880ec2-6216-45e9-9329-a70132c5f29a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>722860be-b940-4fce-8037-1a824cf49514</webElementGuid>
+      <webElementGuid>590756fd-575a-41c9-be56-d3ec856d5244</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>min</name>
       <type>Main</type>
       <value>1000</value>
-      <webElementGuid>26541afc-c552-4c76-ae5f-72ae060ce44f</webElementGuid>
+      <webElementGuid>e5793604-4fce-48b7-bce6-241ad13100c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +57,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-100 color-black ant-input</value>
-      <webElementGuid>83057083-e239-43d1-8c3a-e3ad5ebbea97</webElementGuid>
+      <webElementGuid>38e2ab14-f7c6-4ffc-a97c-2ec2626eebf4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/input[@class=&quot;w-100 color-black ant-input&quot;]</value>
-      <webElementGuid>75ec6ac7-d9be-42c2-8a5e-a4d5f29323bb</webElementGuid>
+      <webElementGuid>9af9c041-5d78-42ce-a3ac-db68c0095005</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@type='text'])[2]</value>
-      <webElementGuid>f832d7c8-e42b-4e8f-ba49-22eb57c18c6b</webElementGuid>
+      <webElementGuid>b579e163-0312-4ef6-b286-2eb9ac110090</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div/form/div[5]/div[2]/div/span/input</value>
-      <webElementGuid>0f4e96ce-df73-4d51-96d3-fae22fc8550c</webElementGuid>
+      <webElementGuid>44af9a6f-715b-4622-aa1c-47672c6a5b34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/div/span/input</value>
-      <webElementGuid>9c3f06fe-39d0-451a-a493-0ba1ccccb7b3</webElementGuid>
+      <webElementGuid>7b46306f-db57-417e-91c5-e72319fda1e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,6 +97,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>c98a9f9f-8fd1-4cd6-b352-293c3aeaf06f</webElementGuid>
+      <webElementGuid>cc4af74f-f487-4aa5-a8cf-e67bbffda68e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

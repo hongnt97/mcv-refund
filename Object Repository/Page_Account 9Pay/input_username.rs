@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>06c25ad2-016d-4f57-8bf0-36322258a32e</webElementGuid>
+      <webElementGuid>d5c17025-56f3-4fea-9e9c-e013e8cd599b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>1dcc1e12-fd85-4b41-9752-ca2193eae3d2</webElementGuid>
+      <webElementGuid>563f1f04-c640-42e3-b854-49aa2a29d291</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form__input form-control w-100</value>
-      <webElementGuid>346a58ac-774b-46f4-a835-57c65cbcf9c5</webElementGuid>
+      <webElementGuid>3ffe223d-a5da-489f-90c4-65411fef28d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>name</name>
       <type>Main</type>
       <value>username</value>
-      <webElementGuid>79291fbe-8606-4d47-a7e1-b251e248ccef</webElementGuid>
+      <webElementGuid>72588c54-84cc-4db3-9098-29dd6bc8181a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>invalid-message</name>
       <type>Main</type>
       <value>Tên đăng nhập không được để trống</value>
-      <webElementGuid>0e1cca28-4280-44e3-bf8c-12bc25469276</webElementGuid>
+      <webElementGuid>27390b07-f564-404d-9018-dc154a3f3a78</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;container vh-100&quot;]/div[@class=&quot;row justify-content-center d-flex align-items-center vh-100&quot;]/div[@class=&quot;col-md-8 py-4 box-content&quot;]/div[@class=&quot;card box-login shadow-lg&quot;]/div[@class=&quot;card-body p-5&quot;]/div[@class=&quot;form-login d-flex justify-content-center mb-5&quot;]/form[@class=&quot;form&quot;]/div[@class=&quot;mb-4 w-100 position-relative box-input&quot;]/input[@class=&quot;form__input form-control w-100&quot;]</value>
-      <webElementGuid>7ff06296-b487-4b58-90e3-aa6a4d7d1e91</webElementGuid>
+      <webElementGuid>179878f0-a9c1-4b08-ac5c-b6fe68946653</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='username']</value>
-      <webElementGuid>bfb41209-e6a7-4138-a0c2-9940314d526c</webElementGuid>
+      <webElementGuid>b0f636b3-202c-497d-a330-8aed9afadc48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>e5aadf5c-ccea-4cd6-a697-5d05d68361ea</webElementGuid>
+      <webElementGuid>3a5fa6de-c768-48cc-acfa-f673594b1894</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @name = 'username']</value>
-      <webElementGuid>5adf646c-b501-4e75-bb73-ec43ddbae08c</webElementGuid>
+      <webElementGuid>bb74aad5-7c15-49ec-ac34-cd4d16be8e23</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>0c40400d-6d72-4e4f-a818-fab670e4697a</webElementGuid>
+      <webElementGuid>d5eabf98-2512-4f3d-a9bc-96d555c7f499</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Refunded transaction processing fee</value>
-      <webElementGuid>5c05dada-d164-4cbb-94a0-8376d333e7b8</webElementGuid>
+      <webElementGuid>073959dd-0d9c-46ec-accc-a4ca21313cb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Refunded transaction processing fee</value>
-      <webElementGuid>6d757b18-2fe6-4fec-88ca-1893c6f0e2b8</webElementGuid>
+      <webElementGuid>9abe2ee1-5ccd-4628-b531-e1dc65f44f28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-6 ant-form-item-label&quot;]/label[1]</value>
-      <webElementGuid>255e4eea-da58-4141-b258-8aa89c34454b</webElementGuid>
+      <webElementGuid>de800c73-efc5-4b43-bf5b-c3e73abce1dd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div/form/div[7]/div/label</value>
-      <webElementGuid>4defd69f-9bd7-4a96-9055-e41e5c8cb9fb</webElementGuid>
+      <webElementGuid>f4f863ad-eb19-4492-92c0-3504257b7f32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Refunded payment fee'])[1]/following::label[1]</value>
-      <webElementGuid>a2b79cc8-f06a-4d00-9474-a2c8397cbabb</webElementGuid>
+      <webElementGuid>a242d4b5-a9d8-4575-aa73-1999a5945f3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='The minimum refund amount is 1,000 VND'])[1]/following::label[2]</value>
-      <webElementGuid>59199493-986a-43c1-ade4-f5934ad5ef89</webElementGuid>
+      <webElementGuid>effecd58-3a80-4573-a09d-374d0e833edc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/preceding::label[1]</value>
-      <webElementGuid>8dd27497-677e-4720-a423-092fec4c634a</webElementGuid>
+      <webElementGuid>ad3597fd-5ad2-4f0a-86c4-896cf5bbda2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Refunded transaction processing fee']/parent::*</value>
-      <webElementGuid>58d1dd4d-e7d8-4ed0-8ddf-d381c5b48f93</webElementGuid>
+      <webElementGuid>2a263e61-18c0-4a11-8e42-6bb64422b485</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/div/label</value>
-      <webElementGuid>d813dfb4-5d73-41fe-9711-de77fd1d28d6</webElementGuid>
+      <webElementGuid>d305bef2-c891-4b33-a798-69871d3079f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +109,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[@title = 'Refunded transaction processing fee' and (text() = 'Refunded transaction processing fee' or . = 'Refunded transaction processing fee')]</value>
-      <webElementGuid>d82a979b-f9db-4a63-8672-8419815cc9c9</webElementGuid>
+      <webElementGuid>201b7137-9a4d-4b74-b1b2-31a96a976d64</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

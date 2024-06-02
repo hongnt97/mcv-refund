@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>56702cd7-0fba-474d-a0a9-36a280520af8</webElementGuid>
+      <webElementGuid>e6c09c1c-be63-433c-b548-1885336edbb8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-col ant-col-8</value>
-      <webElementGuid>27d349bb-566a-4a3a-a29a-4725665ef7aa</webElementGuid>
+      <webElementGuid>c09b7f0d-80c1-43de-b45f-e469f852d221</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Card number </value>
-      <webElementGuid>249cb2a2-1055-4a9d-8cbb-c0d13606c3cc</webElementGuid>
+      <webElementGuid>63700283-a719-43ad-85d4-4b8be5ac4e8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pl-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-8&quot;]</value>
-      <webElementGuid>78a57052-8a65-482f-aa4d-397a64a7ca8e</webElementGuid>
+      <webElementGuid>e1f7d1ea-d6a2-436f-93a7-7113e7b555a7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div[2]/div[9]/div</value>
-      <webElementGuid>eebf873f-e45b-4579-9e84-07ee2c05b9a2</webElementGuid>
+      <webElementGuid>1d2282af-66d1-46d3-9a35-49afdde891f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='—'])[8]/following::div[2]</value>
-      <webElementGuid>be9519b1-038e-422f-9103-87d086df24d2</webElementGuid>
+      <webElementGuid>57f6f234-cc36-4e4d-909e-da2745785d71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Card holder'])[1]/following::div[3]</value>
-      <webElementGuid>00dfab0d-ccab-4d1b-8514-29ad32c89913</webElementGuid>
+      <webElementGuid>08987145-9698-4ae4-9ebd-ae2130752fd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='—'])[9]/preceding::div[1]</value>
-      <webElementGuid>1560759d-a9d7-43e5-a41d-ad0ef203511b</webElementGuid>
+      <webElementGuid>dde6963c-6bd0-4bb6-8262-ef01a54ec5d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Card brand'])[1]/preceding::div[2]</value>
-      <webElementGuid>0ab39cf6-bab7-4aba-95d3-7771dd91f817</webElementGuid>
+      <webElementGuid>b253efcd-9868-4e59-b674-2d2bef7eeb60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Card number']/parent::*</value>
-      <webElementGuid>a4e4682b-af29-42ea-9968-6b0c6561ca59</webElementGuid>
+      <webElementGuid>c986af13-6459-42df-b19a-af1012b41d19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[9]/div</value>
-      <webElementGuid>7196668e-652c-4fab-9ce8-e07e682669a8</webElementGuid>
+      <webElementGuid>3937a8db-ccb4-48f2-9715-6b6f2423cf77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +116,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Card number ' or . = ' Card number ')]</value>
-      <webElementGuid>755bac40-2504-4a1b-954f-2478eff1018f</webElementGuid>
+      <webElementGuid>8ae9154d-3b3a-4113-bc9b-54350393e148</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

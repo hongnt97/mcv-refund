@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>8a693191-bf81-4680-808a-2546d057ada6</webElementGuid>
+      <webElementGuid>74b328da-40ad-467f-b4a4-a8e6806e0f03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +36,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Amount want to refund (*)</value>
-      <webElementGuid>61a54965-675a-4b5b-9d07-aa36bf000c55</webElementGuid>
+      <webElementGuid>9ad5c776-ac37-410a-91b7-c661501fc482</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;main&quot;]/div[2]/div/div[1]/div[1]/form/div[5]/div[1]/label/span</value>
-      <webElementGuid>61a11dd7-dc5b-4df3-a16e-1f204d68816f</webElementGuid>
+      <webElementGuid>dbf32cc0-913e-436a-bff0-4e393c279098</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div/form/div[5]/div/label/span</value>
-      <webElementGuid>a5978077-fdf9-4bf4-9c5c-821312673e38</webElementGuid>
+      <webElementGuid>7ef97212-a9a4-4540-a369-345176f1eec6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Partial refund'])[1]/following::span[1]</value>
-      <webElementGuid>5baad8f8-ab64-4303-a94a-93a1d425d850</webElementGuid>
+      <webElementGuid>f8a3422b-2a35-49e7-b056-7ce5f51a022d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Full refund'])[1]/following::span[4]</value>
-      <webElementGuid>f39a4dd0-0aea-4c9f-8f65-0f9afbeedc27</webElementGuid>
+      <webElementGuid>862731e5-0ce3-48ba-a9dc-fa0214bc4b10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='The minimum refund amount is 1,000 VND'])[1]/preceding::span[3]</value>
-      <webElementGuid>724e8c36-820d-4a4e-b50c-b127d23a1575</webElementGuid>
+      <webElementGuid>e23f777a-bee0-4950-9956-11e6a6827c53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Amount want to refund (']/parent::*</value>
-      <webElementGuid>986d1141-2505-4490-ad24-caab89000b0f</webElementGuid>
+      <webElementGuid>968e46aa-895e-40ee-a503-62e4ceb3dbc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/label/span</value>
-      <webElementGuid>26aa18ff-8d77-44ee-80c9-37411db12d7e</webElementGuid>
+      <webElementGuid>7c7eaa9f-40a0-40bb-afbe-ff04d3e7e85f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +100,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Amount want to refund (*)' or . = 'Amount want to refund (*)')]</value>
-      <webElementGuid>97d18943-ed32-42a6-ba80-a18ae4a65888</webElementGuid>
+      <webElementGuid>0457a8ae-b7b6-41b4-911b-3c0dbf65534f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

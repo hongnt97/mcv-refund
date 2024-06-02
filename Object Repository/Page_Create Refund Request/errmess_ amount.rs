@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>72cbdcfd-63d7-4439-853f-e39d25295200</webElementGuid>
+      <webElementGuid>9158fbf1-7b97-41a0-a5ab-3b15d3eee472</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-form-explain</value>
-      <webElementGuid>70ebe017-7f74-472a-a7da-8810d92b14da</webElementGuid>
+      <webElementGuid>db039f16-c311-4057-ad5a-ca9bbe97c25f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>The minimum refund amount is 1,000 VND</value>
-      <webElementGuid>b4cc9bab-3c92-42df-af64-8e2f1b2890a7</webElementGuid>
+      <webElementGuid>9c8a8a5e-f82f-4a36-bc92-eafda98545e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item ant-form-item-with-help&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control has-error&quot;]/div[@class=&quot;ant-form-explain&quot;]</value>
-      <webElementGuid>cdee1297-dd36-456f-af06-f22c5438bce3</webElementGuid>
+      <webElementGuid>cd25c557-16b3-4eb0-b824-2dc24c722662</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div/form/div[5]/div[2]/div/div</value>
-      <webElementGuid>4496703d-cd34-4045-bff4-9d74cd269a2a</webElementGuid>
+      <webElementGuid>731f5c43-f929-4b1e-b6b5-a9610fab9dff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::div[3]</value>
-      <webElementGuid>0b6d4482-3ad7-4e48-b2d1-be34f73deb55</webElementGuid>
+      <webElementGuid>6afc077c-239d-4ff2-ba95-28cfcebcbc7c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Refunded payment fee'])[1]/preceding::div[1]</value>
-      <webElementGuid>deaacc93-6005-417f-a03f-51fbda84026b</webElementGuid>
+      <webElementGuid>48cc16fc-7638-4619-9309-e3a35656ffbc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Refunded transaction processing fee'])[1]/preceding::div[5]</value>
-      <webElementGuid>26bce321-8358-4645-bef4-38b225fe77ce</webElementGuid>
+      <webElementGuid>966d6312-2b48-4dc8-acfa-9057224f0295</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='The minimum refund amount is 1,000 VND']/parent::*</value>
-      <webElementGuid>7e2a541b-3204-495d-810b-5d707f22bc92</webElementGuid>
+      <webElementGuid>ba25c211-29ad-4adf-a46a-fe9e2417a38c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/div/div</value>
-      <webElementGuid>c27a4ea7-49e7-4766-bda3-de7d8602bcbd</webElementGuid>
+      <webElementGuid>d0a98644-b972-4e7c-b469-a8ae46a782f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,6 +108,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'The minimum refund amount is 1,000 VND' or . = 'The minimum refund amount is 1,000 VND')]</value>
-      <webElementGuid>fc1b66d1-705c-4656-80f7-20b258df3822</webElementGuid>
+      <webElementGuid>5af35534-6c8e-4d57-afdc-22d19cdc1081</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

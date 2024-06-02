@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Checked_Full refund</name>
+   <name>hon ton phn</name>
    <tag></tag>
-   <elementGuidId>27fd5626-51a3-4972-bc4b-f29c05c8d712</elementGuidId>
+   <elementGuidId>1b597cfa-f7c4-4730-8a9e-e1cfc7385602</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -18,7 +18,7 @@
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>label >> internal:has-text=&quot;Full refund&quot;i >> span >> nth=1</value>
+         <value>label >> internal:has-text=&quot;Hoàn toàn phần&quot;i >> span >> nth=1</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>30c6a923-ffc4-4006-b214-0f8bf1a6d190</webElementGuid>
+      <webElementGuid>6a5005d1-a4f3-453d-8471-ae47ee24fce4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,15 +37,15 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-radio-inner</value>
-      <webElementGuid>1035e7bc-cd4c-42e2-9d3c-a97ea9397ba7</webElementGuid>
+      <webElementGuid>5fe909cd-d53a-4ff7-a9d4-f51c55a5c59f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control has-success&quot;]/span[@class=&quot;ant-form-item-children&quot;]/div[@class=&quot;row ant-radio-group ant-radio-group-outline ant-radio-group-default&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-xl-12&quot;]/label[@class=&quot;ant-radio-wrapper&quot;]/span[@class=&quot;ant-radio&quot;]/span[@class=&quot;ant-radio-inner&quot;]</value>
-      <webElementGuid>ebb7705d-2129-4474-9a03-eaf26ac806c5</webElementGuid>
+      <value>//*[@id=&quot;main&quot;]/div[2]/div/div[1]/div[1]/form/div[4]/div[2]/div/span/div/div/div[1]/label/span[1]/span</value>
+      <webElementGuid>cb6426d8-2c92-4e3a-a550-acc7ea4cfaef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div/form/div[4]/div[2]/div/span/div/div/div/label/span/span</value>
-      <webElementGuid>3fa7fa8c-6bb2-4510-b6c6-ed07fae9734b</webElementGuid>
+      <webElementGuid>193a7528-8625-4155-b819-1b26d238764e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +61,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/label/span/span</value>
-      <webElementGuid>ebd93303-8a13-449f-bce5-e2233645b89a</webElementGuid>
+      <webElementGuid>5614f28d-66ab-4b1b-a8ad-170e6c6c36af</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
