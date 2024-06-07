@@ -12,43 +12,49 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>8fd99c01-fe2f-4580-ad19-cb663dff9abe</testSuiteGuid>
    <testCaseLink>
-      <guid>8fa8a2c5-b7f8-49f0-b4f3-f9728b1f5984</guid>
+      <guid>9578697c-f053-4726-8192-2321a8df45ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/refund_ không tạo được hoàn tiền</testCaseId>
+      <testCaseId>Test Cases/Full refund_ thanh cong 1</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>ec7746e2-f9cd-4d69-b4b5-49dcb83a8edf</id>
+         <id>0e6b49dd-e3b8-4033-b7da-3a1a04ae368a</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/data_ khong tao duoc hoan tien</testDataId>
+         <testDataId>Data Files/datatest</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>ec7746e2-f9cd-4d69-b4b5-49dcb83a8edf</testDataLinkId>
+         <testDataLinkId>0e6b49dd-e3b8-4033-b7da-3a1a04ae368a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
-         <variableId>f6ebba20-d926-4385-94e5-7f332835bac7</variableId>
+         <variableId>7c42f2d9-e273-498d-9ecd-a367892fd0b3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ec7746e2-f9cd-4d69-b4b5-49dcb83a8edf</testDataLinkId>
+         <testDataLinkId>0e6b49dd-e3b8-4033-b7da-3a1a04ae368a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
-         <variableId>afdfac46-434b-4c95-af63-ea7fc37b7db1</variableId>
+         <variableId>722f5ed2-57be-4d25-ad40-720bcc0559b7</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ec7746e2-f9cd-4d69-b4b5-49dcb83a8edf</testDataLinkId>
+         <testDataLinkId>0e6b49dd-e3b8-4033-b7da-3a1a04ae368a</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>input_transactionid</value>
-         <variableId>81dd5897-3fd2-4d8d-9934-aa9cd42e0b75</variableId>
+         <variableId>f6cd6983-25b6-4d9f-a3b5-43c4dfc2de44</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>ec7746e2-f9cd-4d69-b4b5-49dcb83a8edf</testDataLinkId>
+         <testDataLinkId>0e6b49dd-e3b8-4033-b7da-3a1a04ae368a</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>expect_msg</value>
-         <variableId>9df0ac28-23a3-4723-a483-8081570ef3c4</variableId>
+         <value>expected_msg</value>
+         <variableId>378287b8-04b9-4b6b-b781-5700f633cab0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0e6b49dd-e3b8-4033-b7da-3a1a04ae368a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>textarea_reason</value>
+         <variableId>8bea62f5-ec29-47df-a5f1-94cf1e55f7dc</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
 
 WebUI.openBrowser('https://dev-mcv2.9pay.mobi/')
 
@@ -33,7 +35,31 @@ WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
 
 WebUI.click(findTestObject('Page_Refund Request List/button_Add'))
 
-WebUI.setText(findTestObject('Page_Create Refund Request/input__transactionid'), '62549005267075')
+WebUI.setText(findTestObject('Page_Create Refund Request/input__transactionid'), '62757081248219')
+
+textngayGD = WebUI.getText(findTestObject('Page_Create Refund Request/ngayGD'))
+textloaiGD= WebUI.getText(findTestObject('Page_Create Refund Request/LoaiGD'))
+textstatus= WebUI.getText(findTestObject('Page_Create Refund Request/status'))
+String textloaiGD
+String textstatus
+if (textloaiGD== "Thanh toán") {
+	System.out.println("Tạo GD")
+} else {
+	System.out.println("Giao dịch không thể tạo yêu cầu hoàn tiền")
+}
+
+if (textstatus== "Thành công") {
+	System.out.println("Tạo GD")
+} else {
+	System.out.println("Giao dịch không thể tạo yêu cầu hoàn tiền")
+}
+System.out.println(textngayGD)
+LocalDateTime myDateObj = LocalDateTime.now();  
+    System.out.println("Before formatting: " + myDateObj);  
+    DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("hh:mm:ss dd/mm/yyyy");  
+    String formattedDate = myDateObj.format(myFormatObj);  
+    System.out.println("After formatting: " + formattedDate);
+
 
 WebUI.enableSmartWait()
 
@@ -42,19 +68,15 @@ WebUI.verifyElementText(findTestObject('Page_Create Refund Request/p_The Transac
 
 WebUI.verifyElementChecked(findTestObject('Page_Create Refund Request/Full refund'), 10)
 
-WebUI.verifyElementClickable(findTestObject('Page_To yu cu hon tin/hon 1 phn'))
+WebUI.verifyElementNotClickable(findTestObject('Page_To yu cu hon tin/hon 1 phn'))
 
-WebUI.setText(findTestObject('Page_Create Refund Request/textarea__reason'), 'hoan tien GD auto')
+WebUI.setText(findTestObject('Page_Create Refund Request/textarea__reason'), textarea_reason)
 
 WebUI.click(findTestObject('Page_Create Refund Request/button_Send Request'))
 
 WebUI.enableSmartWait()
 
-alertText = WebUI.getAlertText()
-
-WebUI.verifyMatch(alertText, 'Thông báo Thêm yêu cầu hoàn tiền thành công', false)
-
-WebUI.getAlertText()
+WebUI.verifyTextPresent(expected_msg, false)
 
 WebUI.closeBrowser()
 
