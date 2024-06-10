@@ -54,11 +54,6 @@ if (textstatus== "Thành công") {
 	System.out.println("Giao dịch không thể tạo yêu cầu hoàn tiền")
 }
 System.out.println(textngayGD)
-LocalDateTime myDateObj = LocalDateTime.now();  
-    System.out.println("Before formatting: " + myDateObj);  
-    DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("hh:mm:ss dd/mm/yyyy");  
-    String formattedDate = myDateObj.format(myFormatObj);  
-    System.out.println("After formatting: " + formattedDate);
 
 
 WebUI.enableSmartWait()
