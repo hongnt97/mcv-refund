@@ -18,7 +18,7 @@
          <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/div[@class=&quot;row ant-radio-group ant-radio-group-outline ant-radio-group-default&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-xl-12&quot;]/label[@class=&quot;ant-radio-wrapper ant-radio-wrapper-checked&quot;]/span[@class=&quot;ant-radio ant-radio-checked&quot;][count(. | //*[@class = 'ant-radio ant-radio-checked']) = count(//*[@class = 'ant-radio ant-radio-checked'])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>84177228-6bf2-4f3f-9d38-aecece448441</webElementGuid>
+      <webElementGuid>54c0107b-8261-4643-a0b0-91d1d2f7e175</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-radio ant-radio-checked</value>
-      <webElementGuid>193a1c9c-190e-4622-9131-8b8368dc46fb</webElementGuid>
+      <webElementGuid>8a626032-9925-4737-81b0-4d45ed410d92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/div[@class=&quot;row ant-radio-group ant-radio-group-outline ant-radio-group-default&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-xl-12&quot;]/label[@class=&quot;ant-radio-wrapper ant-radio-wrapper-checked&quot;]/span[@class=&quot;ant-radio ant-radio-checked&quot;]</value>
-      <webElementGuid>cf75bb61-a4a9-44db-9507-da5693ab3f42</webElementGuid>
+      <webElementGuid>4403521d-96b8-4040-93f7-249df77f4625</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div/form/div[4]/div[2]/div/span/div/div/div[2]/label/span</value>
-      <webElementGuid>ee9ab21d-b889-415e-b0cd-31fcf0791ab6</webElementGuid>
+      <webElementGuid>fa093008-b293-4614-bbc4-82c4a3995924</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Full refund'])[1]/following::span[1]</value>
-      <webElementGuid>488ff801-b970-4f98-a645-515600721c7e</webElementGuid>
+      <webElementGuid>e6d42110-5f26-4609-a339-7107cfccbaf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type of refund'])[1]/following::span[5]</value>
-      <webElementGuid>a65f8451-8c72-4b1a-a601-db25f1b6d8d2</webElementGuid>
+      <webElementGuid>972fa7b2-2613-4581-bc0c-643bbe196115</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Partial refund'])[1]/preceding::span[2]</value>
-      <webElementGuid>a07d9038-86a3-4d7f-8a18-e5a1ebf249a5</webElementGuid>
+      <webElementGuid>bf390ef3-c15a-45cd-9c70-9b2b83f99149</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +89,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/label/span</value>
-      <webElementGuid>ce80a5d2-5f67-4c0c-9d74-515448177656</webElementGuid>
+      <webElementGuid>affbd6f3-f8c9-47c2-83e5-d6fd2a89d6b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

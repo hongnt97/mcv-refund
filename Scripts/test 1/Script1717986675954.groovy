@@ -38,6 +38,14 @@ import java.time.Period
 		WebUI.setText(findTestObject('Page_Account 9Pay/input_password'), 'Abc@12345')
 
 		WebUI.click(findTestObject('Page_Account 9Pay/button_login'))
+		
+		textsoduchodoisoat=WebUI.getText(findTestObject('Page_Dashboard/soduchodoisoat'))
+		System.out.println(textsoduchodoisoat)
+		soduchodoisoat = 0
+		
+		soduchodoisoat = textsoduchodoisoat.replace(',', '')
+		
+		System.out.println('Balance: ' + soduchodoisoat)
 
 		WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
 
@@ -45,17 +53,26 @@ import java.time.Period
 
 		WebUI.click(findTestObject('Page_Refund Request List/button_Add'))
 
-		WebUI.setText(findTestObject('Page_Create Refund Request/input__transactionid'), '62709466132899')
+		WebUI.setText(findTestObject('Page_Create Refund Request/input__transactionid'), '63184909087595')
 
 		WebUI.enableSmartWait()
 
-WebUI.enableSmartWait()
 
 textngayGD = WebUI.getText(findTestObject('Page_Create Refund Request/ngayGD'))
 
 WebUI.getText(findTestObject('Page_Create Refund Request/ngayGD'))
 
-System.out.println(textngayGD)
+System.out.println (textngayGD)
+
+if (textngayGD== "—") {
+	WebUI.verifyTextPresent(expect_msg, false)
+	
+	WebUI.closeBrowser()
+	return false
+	
+} else {
+	System.out.println ("Tiếp tục")
+}
 
 Date objDate = new Date();
 System.out.println(objDate.toString())
@@ -80,7 +97,7 @@ try {
 catch (ParseException e) {
 }
 System.out.println('d1 ' + d1.getTime());
-System.out.println('d2 ' + d2);
+System.out.println('d2 ' + d2.getTime());
 
 long diff = Math.abs(d2.getTime() - d1.getTime())
 long diffSeconds = diff / 1000
@@ -98,34 +115,71 @@ System.out.println (PTTT)
 System.out.println (thuonghieuthe)
 System.out.println('test dk '+ diffSeconds)
 
-if (diffSeconds < 86400 && status=="Thành công " && loaiGD=="Thanh toán" && PTTT=="Thẻ quốc tế" )
+if (diffSeconds < 86400 && status=="Thành công" && loaiGD=="Thanh toán" && PTTT=="Thẻ quốc tế" )
 	{
 	WebUI.verifyElementText(findTestObject('Page_Create Refund Request/p_The Transaction can be partially refunded after 24 hours of success'),
 		'Giao dịch có thể tạo hoàn 1 phần sau 24 giờ giao dịch thành công.')
 
 	WebUI.verifyElementChecked(findTestObject('Page_Create Refund Request/Full refund'), 10)
 
-	WebUI.verifyElementClickable(findTestObject('Page_To yu cu hon tin/hon 1 phn'))
+	WebUI.verifyElementClickable(findTestObject('Page_Create Refund Request/Partial refund'))
 
 	WebUI.setText(findTestObject('Page_Create Refund Request/textarea__reason'), 'hoan tien GD auto')
 
-	WebUI.getText(findTestObject('Page_Create Refund Request/giatrigd'))
+	textgiatrigd1=WebUI.getAttribute(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/giatriGD1'), 'value')
+	System.out.println(textgiatrigd1)
+	giatrigd1 = 0
+	
+	giatrigd1 = textgiatrigd1.replace(',', '')
+	
+	System.out.println('gia tri GD: ' + giatrigd1)
+	
+	textsotienmuonhoan=WebUI.getAttribute(findTestObject('Page_To yu cu hon tin/sotienmuonhoan1'), 'value')
+	
+	textphithanhtoan=WebUI.getAttribute(findTestObject('Page_To yu cu hon tin/phithanhtoan1'), 'value')
+	
+	textphixuly=WebUI.getAttribute(findTestObject('Page_To yu cu hon tin/phixuly1'), 'value')
+	
+	textsotiendahoan=WebUI.getAttribute(findTestObject('Page_To yu cu hon tin/sotiendahoan1'), 'value')
 
-	WebUI.getText(findTestObject('Page_Create Refund Request/phithanhtoan'))
+	System.out.println(textsotiendahoan)
+	System.out.println(textphithanhtoan)
+	System.out.println(textphixuly)
+	System.out.println(textsotienmuonhoan)
+	sotienmuonhoan = 0
+	
+	sotienmuonhoan = textsotienmuonhoan.replace(',', '')
+	
+	System.out.println('số tiền muốn hoàn: ' + sotienmuonhoan)
 
-	WebUI.getText(findTestObject('Page_Create Refund Request/phixuly'))
-
-	WebUI.getText(findTestObject('Page_Create Refund Request/sotienmuonhoan'))
-
-	WebUI.getText(findTestObject('Page_Create Refund Request/sotiendahoan'))
-
-	WebUI.verifyMatch(giatrigd, sotienmuonhoan, false)
-
+	phithanhtoan = 0
+	
+	phithanhtoan = textphithanhtoan.replace(',', '')
+	
+	System.out.println('phithanhtoan: ' + phithanhtoan)
+	
+	phixuly = 0
+	
+	phixuly = textphixuly.replace(',', '')
+	
+	System.out.println('phixuly: ' + phixuly)
+	
+	sotienmuonhoan=Integer.parseInt(sotienmuonhoan)
+	phithanhtoan=Integer.parseInt(phithanhtoan)
+	phixuly=Integer.parseInt(phixuly)
+	trusodu=sotienmuonhoan-phithanhtoan+phixuly
+	System.out.println ('trusodu:' +trusodu)
+	
+	if (trusodu<= Integer.parseInt(soduchodoisoat)) {
+		System.out.println ('Hoàn tiền thành công')
+	} else {
+		System.out.println ('Số dư không đủ')
+		return false
+	}
 	WebUI.click(findTestObject('Page_Create Refund Request/button_Send Request'))
-
 	WebUI.enableSmartWait()
 }
-else if (diffSeconds< 86400 && status=="Thành công " && loaiGD=="Thanh toán" && PTTT=="Thẻ nội địa" && thuonghieuthe=="MB") {
+else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" && PTTT=="Thẻ nội địa" && thuonghieuthe=="MB") {
 	
   WebUI.verifyElementText(findTestObject('Page_Create Refund Request/p_The Transaction can be partially refunded after 24 hours of success'),
 		'Giao dịch có thể tạo hoàn 1 phần sau 24 giờ giao dịch thành công.')
@@ -151,7 +205,7 @@ else if (diffSeconds< 86400 && status=="Thành công " && loaiGD=="Thanh toán" 
 	WebUI.click(findTestObject('Page_Create Refund Request/button_Send Request'))
 
 	WebUI.enableSmartWait() }
-else if(diffSeconds< 86400 && status=="Thành công " && loaiGD=="Thanh toán" && PTTT!="Thẻ nội địa" ) {
+else if(diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" && PTTT!="Thẻ nội địa" ) {
 	WebUI.click(findTestObject('Page_Create Refund Request/Partial refund'))
 	
 	  WebUI.setText(findTestObject('Page_Create Refund Request/sotienmuonhoan'), '10000')
@@ -168,7 +222,7 @@ else if(diffSeconds< 86400 && status=="Thành công " && loaiGD=="Thanh toán" &
 	  System.out.println(sotiendahoan)
 	 WebUI.click(findTestObject('Page_Create Refund Request/button_Send Request'))
 	 WebUI.enableSmartWait()}
-else if(diffSeconds< 86400 && status=="Thành công " && loaiGD=="Thanh toán" && PTTT!="Thẻ quốc tế" ) {
+else if(diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" && PTTT!="Thẻ quốc tế" ) {
 	WebUI.click(findTestObject('Page_Create Refund Request/Partial refund'))
 	
 	  WebUI.setText(findTestObject('Page_Create Refund Request/sotienmuonhoan'), '10000')
@@ -185,7 +239,7 @@ else if(diffSeconds< 86400 && status=="Thành công " && loaiGD=="Thanh toán" &
 	  System.out.println(sotiendahoan)
 	 WebUI.click(findTestObject('Page_Create Refund Request/button_Send Request'))
 	 WebUI.enableSmartWait()}
-else if(diffSeconds< 86400 && status=="Thành công " && loaiGD=="Thanh toán" && PTTT=="Thẻ nội địa"&& PTTT!="MB" ) {
+else if(diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" && PTTT=="Thẻ nội địa"&& PTTT!="MB" ) {
 	WebUI.click(findTestObject('Page_Create Refund Request/Partial refund'))
 	
 	  WebUI.setText(findTestObject('Page_Create Refund Request/sotienmuonhoan'), '10000')
