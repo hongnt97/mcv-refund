@@ -4,6 +4,7 @@
    <name>test 1</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>d8759150-b675-4f08-a211-16b6e0eb6e57</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>

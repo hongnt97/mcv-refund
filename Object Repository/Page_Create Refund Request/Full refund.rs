@@ -6,16 +6,16 @@
    <elementGuidId>a351af0f-92c8-4f49-bf2b-dae6b7887575</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/div[@class=&quot;row ant-radio-group ant-radio-group-outline ant-radio-group-default&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-xl-12&quot;]/label[@class=&quot;ant-radio-wrapper&quot;]/span[@class=&quot;ant-radio&quot;]/span[@class=&quot;ant-radio-inner&quot;][count(. | //*[@class = 'ant-radio-inner']) = count(//*[@class = 'ant-radio-inner'])]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>span.ant-radio-inner</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;main&quot;]/div[2]/div/div[1]/div[1]/form/div[4]/div[2]/div/span/div/div/div[1]/label/span[1]/input</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/div[@class=&quot;row ant-radio-group ant-radio-group-outline ant-radio-group-default&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-xl-12&quot;]/label[@class=&quot;ant-radio-wrapper&quot;]/span[@class=&quot;ant-radio&quot;]/span[@class=&quot;ant-radio-inner&quot;][count(. | //*[@class = 'ant-radio-inner']) = count(//*[@class = 'ant-radio-inner'])]</value>
+         <value>//*[@id=&quot;main&quot;]/div[2]/div/div[1]/div[1]/form/div[6]/div[2]/div/span/div/div/div[1]/label/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>2fedc865-7124-4546-af4d-530e3c72f28e</webElementGuid>
+      <webElementGuid>501a52ad-92a3-4d70-9f47-b73bcdb91e9d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-radio-inner</value>
-      <webElementGuid>4343e101-6ff7-4faa-972e-4482f2bff252</webElementGuid>
+      <webElementGuid>50d23440-77cb-482f-a17c-d5cc447191c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/div[@class=&quot;row ant-radio-group ant-radio-group-outline ant-radio-group-default&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-xl-12&quot;]/label[@class=&quot;ant-radio-wrapper&quot;]/span[@class=&quot;ant-radio&quot;]/span[@class=&quot;ant-radio-inner&quot;]</value>
-      <webElementGuid>7e3f9202-cb5b-4e3c-817d-f1f788ea06db</webElementGuid>
+      <webElementGuid>deceadd6-c570-4f7e-8408-bfc7c782570a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div/form/div[4]/div[2]/div/span/div/div/div/label/span/span</value>
-      <webElementGuid>b152f644-570e-4331-85dd-0a8d8a1fae44</webElementGuid>
+      <webElementGuid>e435b54e-960f-4064-8374-5baa9ec9671b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,6 +65,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/label/span/span</value>
-      <webElementGuid>586bde58-8f53-46e8-8efc-52c136ee3f0d</webElementGuid>
+      <webElementGuid>3e8b17b3-e494-4cb9-9b6a-4024a6b4a9e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

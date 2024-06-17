@@ -6,16 +6,16 @@
    <elementGuidId>e5a1e30b-738b-479d-9886-4763d54e8941</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/div[@class=&quot;row ant-radio-group ant-radio-group-outline ant-radio-group-default&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-xl-12&quot;]/label[@class=&quot;ant-radio-wrapper ant-radio-wrapper-checked&quot;]/span[@class=&quot;ant-radio ant-radio-checked&quot;][count(. | //*[@class = 'ant-radio ant-radio-checked']) = count(//*[@class = 'ant-radio ant-radio-checked'])]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>span.ant-radio.ant-radio-checked</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;main&quot;]/div[2]/div/div[1]/div[1]/form/div[4]/div[2]/div/span/div/div/div[2]/label/span[1]/span</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/div[@class=&quot;row ant-radio-group ant-radio-group-outline ant-radio-group-default&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-xl-12&quot;]/label[@class=&quot;ant-radio-wrapper ant-radio-wrapper-checked&quot;]/span[@class=&quot;ant-radio ant-radio-checked&quot;][count(. | //*[@class = 'ant-radio ant-radio-checked']) = count(//*[@class = 'ant-radio ant-radio-checked'])]</value>
+         <value>//*[@id=&quot;main&quot;]/div[2]/div/div[1]/div[1]/form/div[6]/div[2]/div/span/div/div/div[2]/label/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>54c0107b-8261-4643-a0b0-91d1d2f7e175</webElementGuid>
+      <webElementGuid>6057bf5a-1cd3-4965-8aba-254fd3477829</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-radio ant-radio-checked</value>
-      <webElementGuid>8a626032-9925-4737-81b0-4d45ed410d92</webElementGuid>
+      <webElementGuid>eace8e39-b4b0-4460-ab81-305ca84e4fd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/div[@class=&quot;row ant-radio-group ant-radio-group-outline ant-radio-group-default&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;ant-col ant-col-xs-24 ant-col-xl-12&quot;]/label[@class=&quot;ant-radio-wrapper ant-radio-wrapper-checked&quot;]/span[@class=&quot;ant-radio ant-radio-checked&quot;]</value>
-      <webElementGuid>4403521d-96b8-4040-93f7-249df77f4625</webElementGuid>
+      <webElementGuid>07c66649-479c-463c-89ae-e44c66393bef</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div/form/div[4]/div[2]/div/span/div/div/div[2]/label/span</value>
-      <webElementGuid>fa093008-b293-4614-bbc4-82c4a3995924</webElementGuid>
+      <webElementGuid>0cee0839-ba23-42b1-8d98-40df21c10180</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Full refund'])[1]/following::span[1]</value>
-      <webElementGuid>e6d42110-5f26-4609-a339-7107cfccbaf8</webElementGuid>
+      <webElementGuid>21f99d5c-7f99-4c3b-90df-48748d4ae92f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type of refund'])[1]/following::span[5]</value>
-      <webElementGuid>972fa7b2-2613-4581-bc0c-643bbe196115</webElementGuid>
+      <webElementGuid>60fef853-be8f-4092-bc13-35f78b40af02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Partial refund'])[1]/preceding::span[2]</value>
-      <webElementGuid>bf390ef3-c15a-45cd-9c70-9b2b83f99149</webElementGuid>
+      <webElementGuid>1318f2d6-eff3-4bd3-aaea-6596040ff78e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +89,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/label/span</value>
-      <webElementGuid>affbd6f3-f8c9-47c2-83e5-d6fd2a89d6b5</webElementGuid>
+      <webElementGuid>0343a41b-c2b0-48d8-a131-11af158fcf47</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

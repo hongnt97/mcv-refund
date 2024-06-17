@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>vcb</name>
+   <tag></tag>
+   <elementGuidId>934f3b84-a2f3-401b-b38a-97b746e62c39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;001beeea-48ca-4c57-e02d-8483665c7c8e&quot;)/ul[@class=&quot;ant-select-dropdown-menu ant-select-dropdown-menu-vertical ant-select-dropdown-menu-root&quot;]/li[@class=&quot;ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active&quot;]/div[@class=&quot;bank-info&quot;][count(. | //*[@class = 'bank-info' and (text() = 'Ngân hàng TMCP Ngoại thương Việt Nam' or . = 'Ngân hàng TMCP Ngoại thương Việt Nam')]) = count(//*[@class = 'bank-info' and (text() = 'Ngân hàng TMCP Ngoại thương Việt Nam' or . = 'Ngân hàng TMCP Ngoại thương Việt Nam')])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.bank-info</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div/div/ul/li[2]/div/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=option[name=&quot;Ngân hàng TMCP Ngoại thương Việt Nam&quot;i] >> div</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>02ab4d36-c27b-47d7-b846-ee84b30d193c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bank-info</value>
+      <webElementGuid>efd53d0a-68c8-485a-a8a5-2d241f7d03db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ngân hàng TMCP Ngoại thương Việt Nam</value>
+      <webElementGuid>de4ef581-10f3-4ebe-b269-d0ad5b207135</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;001beeea-48ca-4c57-e02d-8483665c7c8e&quot;)/ul[@class=&quot;ant-select-dropdown-menu ant-select-dropdown-menu-vertical ant-select-dropdown-menu-root&quot;]/li[@class=&quot;ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active&quot;]/div[@class=&quot;bank-info&quot;]</value>
+      <webElementGuid>5877ead9-0817-492d-b21d-65948ebc8865</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='001beeea-48ca-4c57-e02d-8483665c7c8e']/ul/li[2]/div</value>
+      <webElementGuid>13542c71-0189-4460-9490-4dfe9bc0b2af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chọn ngân hàng'])[1]/following::div[1]</value>
+      <webElementGuid>98238998-c32c-4326-8637-cad07789a18e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[5]</value>
+      <webElementGuid>9b68eeb8-c253-444e-916c-7e2e7a8fcfe3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ngân hàng TMCP Đầu tư và Phát triển Việt Nam'])[1]/preceding::div[1]</value>
+      <webElementGuid>22afc59a-55dc-4e67-a391-5c8b732d84fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div</value>
+      <webElementGuid>d956307d-676c-42ea-b6ca-448dc0a0bd63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Ngân hàng TMCP Ngoại thương Việt Nam' or . = 'Ngân hàng TMCP Ngoại thương Việt Nam')]</value>
+      <webElementGuid>9029e1a0-2d22-49ae-9cd2-9a764682165b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

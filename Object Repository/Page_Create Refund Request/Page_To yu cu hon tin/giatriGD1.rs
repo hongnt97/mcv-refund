@@ -6,19 +6,19 @@
    <elementGuidId>6509a7c5-f9ad-431f-bdb1-04c44a0512fc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//main[@id='main']/div[2]/div/div/div/form/div[2]/div[2]/div/span/div/div[2]/input</value>
+         <key>BASIC</key>
+         <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/div[@class=&quot;w-100 ant-input-number ant-input-number-disabled&quot;]/div[@class=&quot;ant-input-number-input-wrap&quot;]/input[@class=&quot;ant-input-number-input&quot;][count(. | //input[@role = 'spinbutton' and @aria-valuemin = '-9007199254740991' and @aria-valuenow = '3000000' and @autocomplete = 'off' and @class = 'ant-input-number-input']) = count(//input[@role = 'spinbutton' and @aria-valuemin = '-9007199254740991' and @aria-valuenow = '3000000' and @autocomplete = 'off' and @class = 'ant-input-number-input'])]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>input.ant-input-number-input</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/div[@class=&quot;w-100 ant-input-number ant-input-number-disabled&quot;]/div[@class=&quot;ant-input-number-input-wrap&quot;]/input[@class=&quot;ant-input-number-input&quot;][count(. | //input[@role = 'spinbutton' and @aria-valuemin = '-9007199254740991' and @aria-valuenow = '3000000' and @autocomplete = 'off' and @class = 'ant-input-number-input']) = count(//input[@role = 'spinbutton' and @aria-valuemin = '-9007199254740991' and @aria-valuenow = '3000000' and @autocomplete = 'off' and @class = 'ant-input-number-input'])]</value>
+         <key>XPATH</key>
+         <value>/html/body/div/div/main/div[2]/div/div[1]/div[1]/form/div[2]/div[2]/div/span/div/div[2]/input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6c3ce534-8148-4dd1-9c5f-4cac40c79c62</webElementGuid>
+      <webElementGuid>caf0e90d-fc36-4463-807f-87c4700a0c23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>role</name>
       <type>Main</type>
       <value>spinbutton</value>
-      <webElementGuid>8b0ede15-e3cb-46b8-85d4-bf0f82045beb</webElementGuid>
+      <webElementGuid>e34d5d20-8ce4-4e18-9af3-ec3b7bb78809</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>aria-valuemin</name>
       <type>Main</type>
       <value>-9007199254740991</value>
-      <webElementGuid>7acea1d9-7200-4175-adc6-4ec576caeb7e</webElementGuid>
+      <webElementGuid>068bee50-7b5f-484f-b45d-03a52a1d9f9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>aria-valuenow</name>
       <type>Main</type>
       <value>3000000</value>
-      <webElementGuid>d52ca6ce-52ea-45c2-a549-18b8734ee811</webElementGuid>
+      <webElementGuid>900278fa-004e-4d89-9e10-9fc5e48a697c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>2ed3a738-731d-4edf-ae69-762bd0a58c64</webElementGuid>
+      <webElementGuid>5a7791de-43c1-440f-a1e4-97e21213f18d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>disabled</name>
       <type>Main</type>
       <value>disabled</value>
-      <webElementGuid>ea01857a-7a3c-468f-bc1f-82df49eb252f</webElementGuid>
+      <webElementGuid>daa5e178-0179-416c-b421-57ab424c9215</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>min</name>
       <type>Main</type>
       <value>-9007199254740991</value>
-      <webElementGuid>8bf041bb-9271-404c-820e-454ad1fd17ca</webElementGuid>
+      <webElementGuid>fdb9e712-91c8-4dea-af38-30f0bd56a003</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>step</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>8e8e5d9a-273d-4fe3-9696-af577da880f0</webElementGuid>
+      <webElementGuid>51168adf-c76a-4420-b7ff-b602de44d9ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -97,7 +97,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-input-number-input</value>
-      <webElementGuid>9a99a448-d4c1-46b6-917b-52686805b7fc</webElementGuid>
+      <webElementGuid>e5bb6166-4cd7-43d3-a30f-50a356ccfe72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;main&quot;)/div[@class=&quot;ant-card ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-row&quot;]/div[@class=&quot;pr-10 pl-10 ant-col ant-col-xs-24 ant-col-xl-12&quot;]/form[@class=&quot;ant-form ant-form-vertical&quot;]/div[@class=&quot;ant-row ant-form-item&quot;]/div[@class=&quot;ant-col ant-col-18 ant-form-item-control-wrapper&quot;]/div[@class=&quot;ant-form-item-control&quot;]/span[@class=&quot;ant-form-item-children&quot;]/div[@class=&quot;w-100 ant-input-number ant-input-number-disabled&quot;]/div[@class=&quot;ant-input-number-input-wrap&quot;]/input[@class=&quot;ant-input-number-input&quot;]</value>
-      <webElementGuid>fc558766-d0d0-416a-9ce2-d9f08d9ef4de</webElementGuid>
+      <webElementGuid>92e71666-252b-4c28-95fa-206c67c8283e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -113,7 +113,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div/form/div[2]/div[2]/div/span/div/div[2]/input</value>
-      <webElementGuid>e99f8abb-ad4c-443f-94f1-fb6669adab06</webElementGuid>
+      <webElementGuid>5e05b4ad-1716-4202-8643-33b33e83f2df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -121,6 +121,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/div/div[2]/input</value>
-      <webElementGuid>98b2f9d8-89d0-40a9-b1b2-b62b166b1430</webElementGuid>
+      <webElementGuid>85b80c81-bcd7-4a4d-a20d-eb7e08c210fe</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

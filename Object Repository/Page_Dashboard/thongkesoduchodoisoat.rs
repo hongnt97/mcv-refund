@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>thongkesoduchodoisoat</name>
+   <tag></tag>
+   <elementGuidId>41ef882d-0ef6-471b-b809-b531d2c626ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#components-nav > li:nth-of-type(2) > a > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='components-nav']/li[2]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot; Thống kê biến động số dư chờ đối soát&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ea9c4fa4-1bc0-48b2-86ac-30d11a2f974e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Thống kê biến động số dư chờ đối soát </value>
+      <webElementGuid>22496e9f-b7a9-4fe4-8114-6cdab60bb7aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;components-nav&quot;)/li[2]/a[1]/span[1]</value>
+      <webElementGuid>e04ab041-348a-48e6-8445-68b329eedcaf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='components-nav']/li[2]/a/span</value>
+      <webElementGuid>1a83f7f8-92f6-40c6-8699-eddffeb304af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tra cứu giao dịch'])[1]/following::span[1]</value>
+      <webElementGuid>b918b236-8e36-4413-9b61-f70e0e766cea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quản lý giao dịch'])[1]/following::span[2]</value>
+      <webElementGuid>546cf451-84d7-4250-8dbf-4499bb197e4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quản lý hoàn tiền'])[1]/preceding::span[1]</value>
+      <webElementGuid>f1347161-201a-4475-89f6-86e542b1449d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quản lý hoàn tiền'])[2]/preceding::span[2]</value>
+      <webElementGuid>e9310765-b1fc-420b-a779-2f01f70d9261</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Thống kê biến động số dư chờ đối soát']/parent::*</value>
+      <webElementGuid>066555df-6b4d-4e80-b59f-a2667cd04b78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]/ul/li[2]/a/span</value>
+      <webElementGuid>e09337e9-2da0-4df3-9191-0549614c8da8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Thống kê biến động số dư chờ đối soát ' or . = 'Thống kê biến động số dư chờ đối soát ')]</value>
+      <webElementGuid>3a4b0b8f-05f7-41fe-ad63-e9802142db01</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -6,10 +6,10 @@
    <UUID>789b2567-19f6-443b-b4d2-de1ee1587fa2</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>9.4.0</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
-   <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>9.4.0</modifiedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <projectFileLocation>C:\Users\hongnt\git\mcv1\MCV1.prj</projectFileLocation>
    <sourceContent>
