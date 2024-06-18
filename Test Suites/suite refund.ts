@@ -12,13 +12,13 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>8fd99c01-fe2f-4580-ad19-cb663dff9abe</testSuiteGuid>
    <testCaseLink>
-      <guid>9578697c-f053-4726-8192-2321a8df45ed</guid>
+      <guid>be92b757-7486-4c3a-a970-0d801d3e443d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Full refund_ thanh cong 1</testCaseId>
+      <testCaseId>Test Cases/test 1</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>0e6b49dd-e3b8-4033-b7da-3a1a04ae368a</id>
+         <id>4ef3d02f-f229-445e-9e42-fdac255dff43</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -27,34 +27,28 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>0e6b49dd-e3b8-4033-b7da-3a1a04ae368a</testDataLinkId>
+         <testDataLinkId>4ef3d02f-f229-445e-9e42-fdac255dff43</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>username</value>
-         <variableId>7c42f2d9-e273-498d-9ecd-a367892fd0b3</variableId>
+         <variableId>70c3a418-b92c-482d-8efa-798dec10f4d6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0e6b49dd-e3b8-4033-b7da-3a1a04ae368a</testDataLinkId>
+         <testDataLinkId>4ef3d02f-f229-445e-9e42-fdac255dff43</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>password</value>
-         <variableId>722f5ed2-57be-4d25-ad40-720bcc0559b7</variableId>
+         <variableId>c6b53c87-a865-4d12-8d97-025985508e08</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0e6b49dd-e3b8-4033-b7da-3a1a04ae368a</testDataLinkId>
+         <testDataLinkId>4ef3d02f-f229-445e-9e42-fdac255dff43</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>input_transactionid</value>
-         <variableId>f6cd6983-25b6-4d9f-a3b5-43c4dfc2de44</variableId>
+         <variableId>b86c4703-c8fd-4f9b-a7cf-ea2abf697e56</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>0e6b49dd-e3b8-4033-b7da-3a1a04ae368a</testDataLinkId>
+         <testDataLinkId>4ef3d02f-f229-445e-9e42-fdac255dff43</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>expected_msg</value>
-         <variableId>378287b8-04b9-4b6b-b781-5700f633cab0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>0e6b49dd-e3b8-4033-b7da-3a1a04ae368a</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>textarea_reason</value>
-         <variableId>8bea62f5-ec29-47df-a5f1-94cf1e55f7dc</variableId>
+         <value>expect_msg</value>
+         <variableId>86f962f7-602c-4756-9ab5-d5cb19388eaf</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -128,7 +128,7 @@ System.out.println(thuonghieuthe)
 System.out.println('test dk ' + diffSeconds)
 
 if ((((diffSeconds < 86400) && (status == 'Thành công')) && (loaiGD == 'Thanh toán')) && (PTTT == 'Thẻ quốc tế')) {
-    WebUI.verifyElementText(findTestObject('f1/Page_To yu cu hon tin/Page_To yu cu hon tin'), 'Giao dịch có thể tạo hoàn 1 phần sau 24 giờ giao dịch thành công.')
+    WebUI.verifyElementText(findTestObject('/Page_To yu cu hon tin/Page_To yu cu hon tin'), 'Giao dịch có thể tạo hoàn 1 phần sau 24 giờ giao dịch thành công.')
 
     WebUI.verifyElementChecked(findTestObject('Page_To yu cu hon tin/Full refund'), 10)
 
@@ -205,7 +205,7 @@ if ((((diffSeconds < 86400) && (status == 'Thành công')) && (loaiGD == 'Thanh 
     WebUI.enableSmartWait()
 } else if (((((diffSeconds < 86400) && (status == 'Thành công')) && (loaiGD == 'Thanh toán')) && (PTTT == 'Thẻ nội địa')) && 
 (thuonghieuthe == 'MB')) {
-    WebUI.verifyElementText(findTestObject('f1/Page_To yu cu hon tin/Page_To yu cu hon tin'), 'Giao dịch có thể tạo hoàn 1 phần sau 24 giờ giao dịch thành công.')
+    WebUI.verifyElementText(findTestObject('Page_Create Refund Request'), 'Giao dịch có thể tạo hoàn 1 phần sau 24 giờ giao dịch thành công.')
 
     WebUI.verifyElementChecked(findTestObject('Page_To yu cu hon tin/Full refund'), 10)
 
@@ -714,4 +714,19 @@ WebUI.click(findTestObject('Page_To yu cu hon tin/vcb'))
 WebUI.setText(findTestObject('f1/Page_To yu cu hon tin/hoten'), 'Hong')
 
 WebUI.setText(findTestObject('f1/Page_To yu cu hon tin/sotaikhoan'), '123456')
+
+WebUI.getText(findTestObject('Confirm'))
+
+WebUI.click(findTestObject('Page_Create Refund Request/button_Send Request'))
+
+WebUI.verifyTextPresent('Thêm mới yêu cầu hoàn tiên thành công', true)
+
+WebUI.verifyElementText(findTestObject('Page_Create Refund Request/p_The Transaction can be partially refunded after 24 hours of success'), 
+    '')
+
+WebUI.click(findTestObject('Page_Create Refund Request/button_Send Request'))
+
+WebUI.verifyTextPresent('', false)
+
+WebUI.getAttribute(findTestObject(null), '')
 

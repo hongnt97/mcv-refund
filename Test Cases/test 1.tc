@@ -30,12 +30,6 @@
       <value></value>
       <variableId>86f962f7-602c-4756-9ab5-d5cb19388eaf</variableId>
    </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>ddef1732-bd41-4009-a7cc-ca7dcd4ac4d4</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -63,12 +57,5 @@
       <id>86f962f7-602c-4756-9ab5-d5cb19388eaf</id>
       <masked>false</masked>
       <name>expect_msg</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>ddef1732-bd41-4009-a7cc-ca7dcd4ac4d4</id>
-      <masked>false</masked>
-      <name>variable_3</name>
    </variable>
 </TestCaseEntity>

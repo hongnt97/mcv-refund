@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>soduchodoisoat</name>
+   <name>Confirm</name>
    <tag></tag>
-   <elementGuidId>9418c68b-071b-464a-b32d-0354f1f88f96</elementGuidId>
+   <elementGuidId>f53e036f-e5af-4625-b558-7a02e7100435</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/span/div/div/div/div[2]</value>
+      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>/html/body/div/div/main/div[2]/div[1]/div/div[2]/div[1]/div[2]/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
