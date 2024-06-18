@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>test 1</name>
+   <name>Refund MCV</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
@@ -28,7 +28,31 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>6f3bfeb1-1780-4fd6-b8c4-4f783de63350</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>86f962f7-602c-4756-9ab5-d5cb19388eaf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3422fbb5-4a92-43e7-b367-3e33545e666a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1c057f70-f532-4a58-a317-a5fb38664106</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5f7f176a-b866-4749-8855-b5934e56fa5f</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
@@ -54,8 +78,36 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
+      <id>6f3bfeb1-1780-4fd6-b8c4-4f783de63350</id>
+      <masked>false</masked>
+      <name>textarea_reason</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
       <id>86f962f7-602c-4756-9ab5-d5cb19388eaf</id>
       <masked>false</masked>
       <name>expect_msg</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3422fbb5-4a92-43e7-b367-3e33545e666a</id>
+      <masked>false</masked>
+      <name>textsotienmuonhoan</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1c057f70-f532-4a58-a317-a5fb38664106</id>
+      <masked>false</masked>
+      <name>hoten</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5f7f176a-b866-4749-8855-b5934e56fa5f</id>
+      <masked>false</masked>
+      <name>sotaikhoan</name>
    </variable>
 </TestCaseEntity>
