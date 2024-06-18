@@ -52,9 +52,9 @@ import java.time.Period
 
         WebUI.maximizeWindow()
 
-        WebUI.setText(findTestObject('Page_Account 9Pay/input_username'),username)
+        WebUI.setText(findTestObject('Page_Account 9Pay/input_username'),"mch01")
 
-        WebUI.setText(findTestObject('Page_Account 9Pay/input_password'), password)
+        WebUI.setText(findTestObject('Page_Account 9Pay/input_password'), "Abc@12345")
 
         WebUI.click(findTestObject('Page_Account 9Pay/button_login'))
         
@@ -72,7 +72,7 @@ import java.time.Period
 
         WebUI.click(findTestObject('Page_Refund Request List/button_Add'))
 
-        WebUI.setText(findTestObject('Page_Create Refund Request/input__transactionid'), input_transactionid)
+        WebUI.setText(findTestObject('Page_Create Refund Request/input__transactionid'), "63672571869342")
 
         WebUI.enableSmartWait()
 
@@ -140,13 +140,13 @@ if (diffSeconds < 86400 && status=="Thành công" && loaiGD=="Thanh toán" && PT
         
          textsotienmuonhoan=WebUI.getAttribute(findTestObject('Page_To yu cu hon tin/sotienmuonhoan1'), 'value')
         
-          WebUI.setText(findTestObject('Page_Create Refund Request/textarea__reason'), 'hoan tien GD auto')
+          if(WebUI.setText(findTestObject('Page_Create Refund Request/textarea__reason'), 'hoan tien GD auto')) {
         
           textgiatrigd1=WebUI.getAttribute(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/giatriGD1'), 'value')
           System.out.println(textgiatrigd1)
           giatrigd1 = 0
           
-          giatrigd1 = textgiatrigd1.replace(',', '')
+          giatrigd1 = textgiatrigd1.replace(',', '') 
           
           System.out.println('gia tri GD: ' + giatrigd1)
         
@@ -190,11 +190,26 @@ if (diffSeconds < 86400 && status=="Thành công" && loaiGD=="Thanh toán" && PT
           
           if (trusodu<= Integer.parseInt(soduchodoisoat)) {
 				WebUI.verifyTextPresent('Thêm mới yêu cầu hoàn tiên thành công', true)
+				WebUI.click(findTestObject('menudashboard'))
+				textsoduchodoisoat1=WebUI.getText(findTestObject('Page_Dashboard/soduchodoisoat'))
+				System.out.println(textsoduchodoisoat1)
+				a = 0
+				
+				a = textsoduchodoisoat1.replace(',', '')
+				a=Integer.parseInt(a)
+				System.out.println('Balance sau hoan: ' + a)
+				b=soduchodoisoat-trusodu
+				System.out.println('b=: ' + b)
+				WebUI.verifyEqual(a, b)
+				
 				return false
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
                 return false
-          }
+          }}
+		  else {WebUI.verifyTextPresent(expect_msg, false)
+			  return false
+		  }
 }
 else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" && PTTT=="Thẻ nội địa" && thuonghieuthe=="MB") {
   

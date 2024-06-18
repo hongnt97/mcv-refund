@@ -730,3 +730,5 @@ WebUI.verifyTextPresent('', false)
 
 WebUI.getAttribute(findTestObject(null), '')
 
+WebUI.click(findTestObject('menudashboard'))
+
