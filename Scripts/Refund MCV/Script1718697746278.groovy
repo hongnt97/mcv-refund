@@ -155,7 +155,7 @@ if (diffSeconds < 86400 && status=="Thành công" && loaiGD=="Thanh toán" && PT
          textsotiendahoan=WebUI.getAttribute(findTestObject('Page_To yu cu hon tin/sotiendahoan1'), 'value')
           
          
-          System.out.println(textsotiendahoan)
+          System.out.println(textsotiendahoan) 
           System.out.println(textsotienmuonhoan)
           System.out.println(textphithanhtoan)
           System.out.println(textphixuly)

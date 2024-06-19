@@ -12,48 +12,48 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>8fd99c01-fe2f-4580-ad19-cb663dff9abe</testSuiteGuid>
    <testCaseLink>
-      <guid>ba066124-dcc2-402b-99d6-0e4dfbb877c2</guid>
+      <guid>1712ec9a-691e-4e75-a937-c7169a7fbd31</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Refund MCV</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>78e7dacd-f143-4cc4-8c20-e8ac33e36375</id>
+         <id>ccd6d3e9-0ec5-4605-bb39-4db51309d99f</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/refund</testDataId>
+         <testDataId>Data Files/data test</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>78e7dacd-f143-4cc4-8c20-e8ac33e36375</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>username</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>70c3a418-b92c-482d-8efa-798dec10f4d6</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>78e7dacd-f143-4cc4-8c20-e8ac33e36375</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>c6b53c87-a865-4d12-8d97-025985508e08</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>78e7dacd-f143-4cc4-8c20-e8ac33e36375</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>input_transactionid</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>b86c4703-c8fd-4f9b-a7cf-ea2abf697e56</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>78e7dacd-f143-4cc4-8c20-e8ac33e36375</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>textarea_reason</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>6f3bfeb1-1780-4fd6-b8c4-4f783de63350</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>78e7dacd-f143-4cc4-8c20-e8ac33e36375</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>expect_msg</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>86f962f7-602c-4756-9ab5-d5cb19388eaf</variableId>
       </variableLink>
       <variableLink>
