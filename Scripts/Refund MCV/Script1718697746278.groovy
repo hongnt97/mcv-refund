@@ -198,6 +198,8 @@ if (diffSeconds < 86400 && status=="Thành công" && loaiGD=="Thanh toán" && PT
 				a = textsoduchodoisoat1.replace(',', '')
 				a=Integer.parseInt(a)
 				System.out.println('Balance sau hoan: ' + a)
+				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
+				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
 				return false
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
@@ -275,6 +277,8 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				a = textsoduchodoisoat1.replace(',', '')
 				a=Integer.parseInt(a)
 				System.out.println('Balance sau hoan: ' + a)
+				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
+				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
 				return false
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
@@ -350,6 +354,8 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				a = textsoduchodoisoat1.replace(',', '')
 				a=Integer.parseInt(a)
 				System.out.println('Balance sau hoan: ' + a)
+				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
+				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
 				return false
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
@@ -423,6 +429,8 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				a = textsoduchodoisoat1.replace(',', '')
 				a=Integer.parseInt(a)
 				System.out.println('Balance sau hoan: ' + a)
+				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
+				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
 				return false
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
@@ -505,6 +513,16 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
           
           if (trusodu<= Integer.parseInt(soduchodoisoat)) {
 				WebUI.verifyTextPresent('Thêm mới yêu cầu hoàn tiên thành công', true)
+				WebUI.click(findTestObject('menudashboard'))
+				textsoduchodoisoat1=WebUI.getText(findTestObject('Page_Dashboard/soduchodoisoat'))
+				System.out.println(textsoduchodoisoat1)
+				a = 0
+				
+				a = textsoduchodoisoat1.replace(',', '')
+				a=Integer.parseInt(a)
+				System.out.println('Balance sau hoan: ' + a)
+				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
+				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
 				return false
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
@@ -570,6 +588,16 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
           
           if (trusodu<= Integer.parseInt(soduchodoisoat)) {
 				WebUI.verifyTextPresent('Thêm mới yêu cầu hoàn tiên thành công', true)
+				WebUI.click(findTestObject('menudashboard'))
+				textsoduchodoisoat1=WebUI.getText(findTestObject('Page_Dashboard/soduchodoisoat'))
+				System.out.println(textsoduchodoisoat1)
+				a = 0
+				
+				a = textsoduchodoisoat1.replace(',', '')
+				a=Integer.parseInt(a)
+				System.out.println('Balance sau hoan: ' + a)
+				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
+				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
 				return false
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
@@ -637,6 +665,16 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
           
           if (trusodu<= Integer.parseInt(soduchodoisoat)) {
 				WebUI.verifyTextPresent('Thêm mới yêu cầu hoàn tiên thành công', true)
+				WebUI.click(findTestObject('menudashboard'))
+				textsoduchodoisoat1=WebUI.getText(findTestObject('Page_Dashboard/soduchodoisoat'))
+				System.out.println(textsoduchodoisoat1)
+				a = 0
+				
+				a = textsoduchodoisoat1.replace(',', '')
+				a=Integer.parseInt(a)
+				System.out.println('Balance sau hoan: ' + a)
+				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
+				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
 				return false
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
@@ -702,6 +740,16 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
           
           if (trusodu<= Integer.parseInt(soduchodoisoat)) {
 				WebUI.verifyTextPresent('Thêm mới yêu cầu hoàn tiên thành công', true)
+				WebUI.click(findTestObject('menudashboard'))
+				textsoduchodoisoat1=WebUI.getText(findTestObject('Page_Dashboard/soduchodoisoat'))
+				System.out.println(textsoduchodoisoat1)
+				a = 0
+				
+				a = textsoduchodoisoat1.replace(',', '')
+				a=Integer.parseInt(a)
+				System.out.println('Balance sau hoan: ' + a)
+				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
+				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
 				return false
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)

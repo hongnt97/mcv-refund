@@ -732,3 +732,5 @@ WebUI.getAttribute(findTestObject(null), '')
 
 WebUI.click(findTestObject('menudashboard'))
 
+WebUI.verifyEqual(null, null)
+
