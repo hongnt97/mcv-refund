@@ -70,5 +70,5 @@ import java.time.Period
 		WebUI.setText(findTestObject('f1/Page_To yu cu hon tin/hoten'), 'HONG')
 		WebUI.click(findTestObject('Page_Create Refund Request/button_Send Request'))
 		WebUI.verifyTextPresent(expect_msg, false)
-        WebUI.enableSmartWait()
+        WebUI.enableSmartWait() 
 
