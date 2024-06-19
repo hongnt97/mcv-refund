@@ -276,7 +276,8 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				
 				a = textsoduchodoisoat1.replace(',', '')
 				a=Integer.parseInt(a)
-				System.out.println('Balance sau hoan là: ' + a)
+
+				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
 				return false
