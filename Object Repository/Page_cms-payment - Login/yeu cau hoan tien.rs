@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/nav/div/ul/li[4]/a</value>
+         <value>//*[@id=&quot;side-menu&quot;]/li[4]/ul/li[1]/a</value>
       </entry>
       <entry>
          <key>BASIC</key>

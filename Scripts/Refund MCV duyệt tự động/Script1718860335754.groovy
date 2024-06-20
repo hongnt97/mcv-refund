@@ -538,7 +538,7 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
                 WebUI.setText(findTestObject('Page_Create Refund Request/sotienmuonhoan'), sotienmuonhoan)
 		
                 textsotienmuonhoan=WebUI.getAttribute(findTestObject('Page_Create Refund Request/sotienmuonhoan'), 'value')
-        
+        if(textsotienmuonhoan!=0) { WebUI.verifyElementNotClickable(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/Full refund checked'))}
           WebUI.setText(findTestObject('Page_Create Refund Request/textarea__reason'), textarea_reason)
 		  textarea_reason= WebUI.getAttribute(findTestObject('Page_Create Refund Request/textarea__reason'), 'value')
         if(textsotienmuonhoan!="" || textarea_reason!="") {
