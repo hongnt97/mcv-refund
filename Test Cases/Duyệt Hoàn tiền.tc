@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Từ chối hoàn tiền</name>
+   <name>Duyệt Hoàn tiền</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>aeacee3e-7eb3-45ce-9767-c9805929a1d9</testCaseGuid>
+   <testCaseGuid>2b29aff3-d27f-4813-b814-139fed87a8fd</testCaseGuid>
 </TestCaseEntity>

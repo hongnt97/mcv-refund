@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Yu cu hon tin</name>
+   <tag></tag>
+   <elementGuidId>39c35016-5779-42c2-b73f-f2f680378c5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;side-menu&quot;)/li[4]/a[1]/span[@class=&quot;nav-label&quot;][count(. | //*[@class = 'nav-label' and (text() = 'Yêu cầu hoàn tiền' or . = 'Yêu cầu hoàn tiền')]) = count(//*[@class = 'nav-label' and (text() = 'Yêu cầu hoàn tiền' or . = 'Yêu cầu hoàn tiền')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/nav/div/ul/li[4]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(4) > a > span.nav-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>26fc6cf5-a751-4036-9b02-3663ca8a184f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-label</value>
+      <webElementGuid>64700684-0604-41c3-bb3d-c121106b9e20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yêu cầu hoàn tiền</value>
+      <webElementGuid>6f2b4b7b-6b57-43c9-95b8-3ad06f3bea41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;side-menu&quot;)/li[4]/a[1]/span[@class=&quot;nav-label&quot;]</value>
+      <webElementGuid>4d176977-9b7e-4f02-bafc-7f9ea1dcd5c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='side-menu']/li[4]/a/span</value>
+      <webElementGuid>2f2add38-7dd1-4cff-bfaf-95acc2507e38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Danh sách thông báo giao dịch'])[1]/following::span[1]</value>
+      <webElementGuid>4d702d95-d7ed-4084-8317-1a8c8e9a6666</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Duyệt giao dịch chi hộ rủi ro'])[1]/following::span[1]</value>
+      <webElementGuid>b2b054f6-cfd6-4ceb-9d23-ed6ff54f262d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Danh sách yêu cầu'])[1]/preceding::span[2]</value>
+      <webElementGuid>2c618a96-c9e6-4265-abfe-8709750fa371</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Danh sách chờ duyệt'])[1]/preceding::span[2]</value>
+      <webElementGuid>6628bfc9-d38b-4697-a438-c60e6d4db93d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Yêu cầu hoàn tiền']/parent::*</value>
+      <webElementGuid>092f4d21-eee5-4739-9c30-98ad5ec3dc92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a/span</value>
+      <webElementGuid>609d8615-d3fd-4f71-9459-9036f8ea6739</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Yêu cầu hoàn tiền' or . = 'Yêu cầu hoàn tiền')]</value>
+      <webElementGuid>1545f13a-4542-4c02-a3b9-18bf1f15b6ff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
