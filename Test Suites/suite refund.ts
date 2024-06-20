@@ -15,7 +15,7 @@
       <guid>1712ec9a-691e-4e75-a937-c7169a7fbd31</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Refund MCV</testCaseId>
+      <testCaseId>Test Cases/Refund MCV duyệt tự động</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ccd6d3e9-0ec5-4605-bb39-4db51309d99f</id>

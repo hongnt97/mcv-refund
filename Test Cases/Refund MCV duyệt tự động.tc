@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Refund MCV</name>
+   <name>Refund MCV duyệt tự động</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
