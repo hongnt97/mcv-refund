@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>data test</name>
+   <name>data refund MCV duyet tu dong</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>414b4b85-3689-4d9c-ab62-b258a0e7b92d</dataFileGUID>
-   <dataSourceUrl>C:\Users\hongnt\Downloads\refund.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\hongnt\Katalon Studio\refund MCV duyệt tự động.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

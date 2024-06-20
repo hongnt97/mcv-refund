@@ -6,12 +6,11 @@
    <elementGuidId>a2f7f1f6-69e3-4ecf-a1fc-fc762c43cea0</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;reject-modal&quot;]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div[3]/div/div/div[3]/div/div/div[3]/button[1]/span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

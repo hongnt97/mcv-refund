@@ -45,11 +45,11 @@ WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
 
 WebUI.click(findTestObject('Page_Refund Request List/button_Add'))
 
-WebUI.setText(findTestObject('Page_Create Refund Request/input__transactionid'), input_transactionid)
+WebUI.setText(findTestObject('Page_Create Refund Request/input__transactionid'), "63822804146475")
 
 WebUI.click(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/Full refund checked'))
 
-WebUI.setText(findTestObject('Page_Create Refund Request/textarea__reason'), textarea_reason)
+WebUI.setText(findTestObject('Page_Create Refund Request/textarea__reason'), "hoàn tiền ")
 
 WebUI.click(findTestObject('Page_Create Refund Request/button_Send Request'))
 

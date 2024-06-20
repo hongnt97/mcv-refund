@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Refund- GD giam tiền</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>56ad6eed-24cd-430d-a094-9495b5d52a46</testCaseGuid>
+</TestCaseEntity>

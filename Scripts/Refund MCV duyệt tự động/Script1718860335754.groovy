@@ -84,6 +84,7 @@ WebUI.getText(findTestObject('Page_Create Refund Request/ngayGD'))
 System.out.println (textngayGD)
 
 if (textngayGD== "—") {
+	WebUI.enableSmartWait()
   WebUI.verifyTextPresent(expect_msg, false)
   WebUI.closeBrowser()
   return false

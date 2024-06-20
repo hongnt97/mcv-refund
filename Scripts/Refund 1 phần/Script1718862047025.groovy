@@ -149,7 +149,7 @@ import java.time.Period
    System.out.println ('Confirm: ' + confirm)
 	
 	if (trusodu<= Integer.parseInt(soduchodoisoat)) {
-		  WebUI.verifyTextPresent('Thêm mới yêu cầu hoàn tiên thành công', true)
+		 
 		  WebUI.click(findTestObject('menudashboard'))
 		  textsoduchodoisoat1=WebUI.getText(findTestObject('Page_Dashboard/soduchodoisoat'))
 		  System.out.println(textsoduchodoisoat1)

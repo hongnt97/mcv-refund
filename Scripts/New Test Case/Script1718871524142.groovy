@@ -17,27 +17,34 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('https://dev-mcv2.9pay.mobi/')
+WebUI.openBrowser('https://stg-cms-payment.9pay.mobi/login')
+
+WebUI.setText(findTestObject('Page_cms-payment - Login/input_usernameCMS'), 'admin@gmail.com')
+
+WebUI.setText(findTestObject('Page_cms-payment - Login/input_passwwordCMS'), 'paygate@123')
+
+WebUI.click(findTestObject('Page_cms-payment - Login/button_LoginCMS'))
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_Account 9Pay/input_username'), username)
+WebUI.click(findTestObject('f1/Page_Dashboard/a_module ychoantien'))
 
-WebUI.setText(findTestObject('Page_Account 9Pay/input_password'), password)
-
-WebUI.click(findTestObject('Page_Account 9Pay/button_login'))
-
-WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
-
-WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
-
-WebUI.click(findTestObject('Page_Refund Request List/button_Add'))
-
-WebUI.setText(findTestObject('Page_Create Refund Request/input__transactionid'), input_transactionid)
+WebUI.click(findTestObject('f1/Page_Dashboard/a_Danh sch ch duyt'))
 
 WebUI.enableSmartWait()
 
-WebUI.verifyTextPresent(expect_msg, false)
+WebUI.setText(findTestObject('Page_Danh sch ch duyt yu cu hon tin/filter'), '63678732318889')
 
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Page_Danh sch ch duyt yu cu hon tin/button_Timkiem'))
 
+WebUI.click(findTestObject('Page_Danh sch ch duyt yu cu hon tin/checkall'))
+
+WebUI.enableSmartWait()
+
+WebUI.click(findTestObject('Page_Danh sch ch duyt yu cu hon tin/button_T chi'))
+
+WebUI.setText(findTestObject('Page_Danh sch ch duyt yu cu hon tin/lydotuchoi'), 'tu choi GD')
+
+WebUI.click(findTestObject('Page_Danh sch ch duyt yu cu hon tin/btn xacnhantuchoi'))
+
+WebUI.enableSmartWait()
