@@ -534,14 +534,11 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 			  return false
 		  } }
  else if(diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" && PTTT=="Thẻ nội địa"&& thuonghieuthe!="MB") {
-          WebUI.click(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/Partial disabled'))
-                WebUI.setText(findTestObject('Page_Create Refund Request/sotienmuonhoan'), sotienmuonhoan)
-		
-                textsotienmuonhoan=WebUI.getAttribute(findTestObject('Page_Create Refund Request/sotienmuonhoan'), 'value')
-        if(textsotienmuonhoan!=0) { WebUI.verifyElementNotClickable(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/Full refund checked'))}
+          WebUI.click(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/Full refund checked'))
+		  textsotienmuonhoan=WebUI.getAttribute(findTestObject('Page_Create Refund Request/sotienmuonhoan'), 'value')
           WebUI.setText(findTestObject('Page_Create Refund Request/textarea__reason'), textarea_reason)
 		  textarea_reason= WebUI.getAttribute(findTestObject('Page_Create Refund Request/textarea__reason'), 'value')
-        if(textsotienmuonhoan!="" || textarea_reason!="") {
+        if(textarea_reason!="") {
           textgiatrigd1=WebUI.getAttribute(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/giatriGD1'), 'value')
           System.out.println(textgiatrigd1)
           giatrigd1 = 0
@@ -612,13 +609,10 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
           System.out.println("Kết thúc") }
   else if(diffSeconds >= 86400 && status=="Thành công" && loaiGD=="Thanh toán" && (PTTT=="Thẻ quốc tế"||PTTT=="Thẻ nội địa")) {
         WebUI.click(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/Partial disabled'))
-                WebUI.setText(findTestObject('Page_Create Refund Request/sotienmuonhoan'), sotienmuonhoan)
-		
                 textsotienmuonhoan=WebUI.getAttribute(findTestObject('Page_Create Refund Request/sotienmuonhoan'), 'value')
-				if(textsotienmuonhoan!=0) { WebUI.verifyElementNotClickable(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/Full refund checked'))}
           WebUI.setText(findTestObject('Page_Create Refund Request/textarea__reason'), textarea_reason)
 		  textarea_reason= WebUI.getAttribute(findTestObject('Page_Create Refund Request/textarea__reason'), 'value')
-        if(textsotienmuonhoan!="" || textarea_reason!="") {
+        if(textarea_reason!="") {
           textgiatrigd1=WebUI.getAttribute(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/giatriGD1'), 'value')
           System.out.println(textgiatrigd1)
           giatrigd1 = 0
@@ -686,14 +680,12 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 			  return false
 		  } }
   else if(diffSeconds >= 86400 && status=="Thành công" && loaiGD=="Thanh toán" && PTTT=="Apple Pay" ) {
-          WebUI.click(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/Partial disabled'))
-                WebUI.setText(findTestObject('Page_Create Refund Request/sotienmuonhoan'), sotienmuonhoan)
-		
+          WebUI.click(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/Full refund checked'))
                 textsotienmuonhoan=WebUI.getAttribute(findTestObject('Page_Create Refund Request/sotienmuonhoan'), 'value')
 				if(textsotienmuonhoan!=0) { WebUI.verifyElementNotClickable(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/Full refund checked'))}
           WebUI.setText(findTestObject('Page_Create Refund Request/textarea__reason'), textarea_reason)
 		  textarea_reason= WebUI.getAttribute(findTestObject('Page_Create Refund Request/textarea__reason'), 'value')
-        if(textsotienmuonhoan!="" || textarea_reason!="") {
+        if(textarea_reason!="") {
           textgiatrigd1=WebUI.getAttribute(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/giatriGD1'), 'value')
           System.out.println(textgiatrigd1)
           giatrigd1 = 0
