@@ -12,67 +12,49 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>8fd99c01-fe2f-4580-ad19-cb663dff9abe</testSuiteGuid>
    <testCaseLink>
-      <guid>1712ec9a-691e-4e75-a937-c7169a7fbd31</guid>
+      <guid>bd481936-c6b7-4484-a328-2f7d3e1dfe09</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Refund MCV duyệt tự động</testCaseId>
+      <testCaseId>Test Cases/Refund 1 phần</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>ccd6d3e9-0ec5-4605-bb39-4db51309d99f</id>
+         <id>18182234-0c2c-4005-92b1-d760fd0e1c5a</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/data test</testDataId>
+         <testDataId>Data Files/data refund 1 phần</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>70c3a418-b92c-482d-8efa-798dec10f4d6</variableId>
+         <testDataLinkId>18182234-0c2c-4005-92b1-d760fd0e1c5a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>7f851671-029a-4336-aec3-f500a10ff828</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>c6b53c87-a865-4d12-8d97-025985508e08</variableId>
+         <testDataLinkId>18182234-0c2c-4005-92b1-d760fd0e1c5a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>c0fbb221-349b-403b-9b24-57cdb9496528</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b86c4703-c8fd-4f9b-a7cf-ea2abf697e56</variableId>
+         <testDataLinkId>18182234-0c2c-4005-92b1-d760fd0e1c5a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>input_transactionid</value>
+         <variableId>601c82e8-55df-40da-a08d-4bd236393b60</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6f3bfeb1-1780-4fd6-b8c4-4f783de63350</variableId>
+         <testDataLinkId>18182234-0c2c-4005-92b1-d760fd0e1c5a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sotienmuonhoan</value>
+         <variableId>49867ad2-37c7-4ca6-bc5e-2e89c926300e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>86f962f7-602c-4756-9ab5-d5cb19388eaf</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>3422fbb5-4a92-43e7-b367-3e33545e666a</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1c057f70-f532-4a58-a317-a5fb38664106</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>5f7f176a-b866-4749-8855-b5934e56fa5f</variableId>
+         <testDataLinkId>18182234-0c2c-4005-92b1-d760fd0e1c5a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>textarea__reason</value>
+         <variableId>649d0ddf-0557-420a-96dd-6f438721a414</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

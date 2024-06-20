@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Duyệt Hoàn tiền</name>
+   <name>Refund 1 phần</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>2b29aff3-d27f-4813-b814-139fed87a8fd</testCaseGuid>
+   <testCaseGuid>4a8af627-4b61-4305-b2a8-1e0cb50b7a6c</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f34fec11-2462-497c-9761-526ec346d785</variableId>
+      <variableId>7f851671-029a-4336-aec3-f500a10ff828</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9bd87f56-1d1f-47d4-a45d-acb83d3d58ff</variableId>
+      <variableId>c0fbb221-349b-403b-9b24-57cdb9496528</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d7b95a23-81b5-4b0c-a9e9-0f380ab0aed6</variableId>
+      <variableId>601c82e8-55df-40da-a08d-4bd236393b60</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>427b0b56-41e6-4440-bdfe-12cc45ed08c5</variableId>
+      <variableId>49867ad2-37c7-4ca6-bc5e-2e89c926300e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9b90a68e-4ab5-4e65-860e-4e2bda02ad2d</variableId>
+      <variableId>649d0ddf-0557-420a-96dd-6f438721a414</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>f34fec11-2462-497c-9761-526ec346d785</id>
+      <id>7f851671-029a-4336-aec3-f500a10ff828</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9bd87f56-1d1f-47d4-a45d-acb83d3d58ff</id>
+      <id>c0fbb221-349b-403b-9b24-57cdb9496528</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d7b95a23-81b5-4b0c-a9e9-0f380ab0aed6</id>
+      <id>601c82e8-55df-40da-a08d-4bd236393b60</id>
       <masked>false</masked>
       <name>input_transactionid</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>427b0b56-41e6-4440-bdfe-12cc45ed08c5</id>
+      <id>49867ad2-37c7-4ca6-bc5e-2e89c926300e</id>
       <masked>false</masked>
-      <name>variable_2</name>
+      <name>sotienmuonhoan</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9b90a68e-4ab5-4e65-860e-4e2bda02ad2d</id>
+      <id>649d0ddf-0557-420a-96dd-6f438721a414</id>
       <masked>false</masked>
-      <name>variable_3</name>
+      <name>textarea__reason</name>
    </variable>
 </TestCaseEntity>

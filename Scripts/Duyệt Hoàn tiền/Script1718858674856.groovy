@@ -95,73 +95,9 @@ import java.time.Period
 		WebUI.setText(findTestObject('Page_Create Refund Request/input__transactionid'), "63806762342670")
 
 		WebUI.enableSmartWait()
-
-
-textngayGD = WebUI.getText(findTestObject('Page_Create Refund Request/ngayGD'))
-
-WebUI.getText(findTestObject('Page_Create Refund Request/ngayGD'))
-
-System.out.println (textngayGD)
-
-if (textngayGD== "—") {
-  WebUI.verifyTextPresent(expect_msg, false)
-  WebUI.closeBrowser()
-  return false
-} else {
-  System.out.println ("Tiếp tục")
-}
-
-Date objDate = new Date();
-System.out.println(objDate.toString())
-String strDateFormat = "HH:MM:ss  dd/MM/yyyy";
-SimpleDateFormat objSDF = new SimpleDateFormat(strDateFormat)
-System.out.println(objSDF.format(objDate))
-
-
-SimpleDateFormat format = new SimpleDateFormat('HH:mm:ss dd/MM/yyyy')
-
-
-
-Date d1 = null
-
-Date d2 = null
-
-try {
-  d1 = format.parse(textngayGD)
-
-  d2 = format.parse(objSDF.format(objDate))
-}
-catch (ParseException e) {
-}
-System.out.println('d1 ' + d1.getTime());
-System.out.println('d2 ' + d2.getTime());
-
-long diff = Math.abs(d2.getTime() - d1.getTime())
-long diffSeconds = diff / 1000
-
-System.out.println(('Số giây : ' + diffSeconds) + ' seconds.')
-
-status=WebUI.getText(findTestObject('Page_Create Refund Request/status'))
-loaiGD=WebUI.getText(findTestObject('Page_Create Refund Request/loaiGD'))
-PTTT=WebUI.getText(findTestObject('Page_Create Refund Request/PTTT'))
-thuonghieuthe=WebUI.getText(findTestObject('Page_Create Refund Request/thuonghieuthe'))
-System.out.println (status)
-System.out.println (loaiGD)
-System.out.println (PTTT)
-System.out.println (thuonghieuthe)
-System.out.println('test dk '+ diffSeconds)
-
-if (diffSeconds < 86400 && status=="Thành công" && loaiGD=="Thanh toán" && PTTT=="Thẻ quốc tế" ) {
-  WebUI.verifyElementText(findTestObject('Page_Create Refund Request/p_The Transaction can be partially refunded after 24 hours of success'),
-		'Giao dịch có thể tạo hoàn 1 phần sau 24 giờ giao dịch thành công.')
-
-  WebUI.verifyElementChecked(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/Full refund checked'), 10)
-		WebUI.verifyElementNotClickable(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/Partial disabled'))
-		
-		 textsotienmuonhoan=WebUI.getAttribute(findTestObject('Page_To yu cu hon tin/sotienmuonhoan1'), 'value')
+	 textsotienmuonhoan=WebUI.getAttribute(findTestObject('Page_To yu cu hon tin/sotienmuonhoan1'), 'value')
 		  WebUI.setText(findTestObject('Page_Create Refund Request/textarea__reason'), "djfhjdfhjdfjdj")
 		  textarea_reason= WebUI.getAttribute(findTestObject('Page_Create Refund Request/textarea__reason'), 'value')
-			  if(textarea_reason!="") {
 		  textgiatrigd1=WebUI.getAttribute(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/giatriGD1'), 'value')
 		  System.out.println(textgiatrigd1)
 		  giatrigd1 = 0
@@ -268,12 +204,4 @@ WebUI.closeBrowser()
 						System.out.println('Balance: ' + soduchodoisoatduyet)
 						WebUI.verifyEqual(Integer.parseInt(oduchodoisoatduyet), a)
 						WebUI.closeBrowser()
-						
-		  } else {
-			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
-				return false
-		  }}
-		  else {WebUI.verifyTextPresent(expect_msg, false)
-			  return false
-		  }
 }
