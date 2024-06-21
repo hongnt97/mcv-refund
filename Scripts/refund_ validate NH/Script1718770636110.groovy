@@ -52,9 +52,9 @@ import java.time.Period
 
         WebUI.maximizeWindow()
 
-        WebUI.setText(findTestObject('Page_Account 9Pay/input_username'),"mch01")
+        WebUI.setText(findTestObject('Page_Account 9Pay/input_username'),username)
 
-        WebUI.setText(findTestObject('Page_Account 9Pay/input_password'), "Abc@12345")
+        WebUI.setText(findTestObject('Page_Account 9Pay/input_password'), password)
 
         WebUI.click(findTestObject('Page_Account 9Pay/button_login'))
         WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
