@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[2]/div/div/div/ul/li[2]/div/span[2]</value>
+         <value>/html/body/div[1]/div/main/div[2]/div/div[1]/div[1]/form/div[9]/div[2]/div/span/div/div/div/div/div/span[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ab7c8053-8d94-4269-8f7e-8f829d996314</webElementGuid>
+      <webElementGuid>1ccbcd90-fd28-4562-83b1-5167a6a3a970</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bank-info</value>
-      <webElementGuid>ebe047ef-e07a-457c-b61a-7ed7b6d2ccf0</webElementGuid>
+      <webElementGuid>5879db31-a145-445d-8a01-54d940a971e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ngân hàng TMCP Ngoại thương Việt Nam</value>
-      <webElementGuid>ddca2e32-62a2-4620-a56a-705375989b47</webElementGuid>
+      <webElementGuid>b3feced6-35ec-4b8c-b1c1-01034bc6576d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;001beeea-48ca-4c57-e02d-8483665c7c8e&quot;)/ul[@class=&quot;ant-select-dropdown-menu ant-select-dropdown-menu-vertical ant-select-dropdown-menu-root&quot;]/li[@class=&quot;ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active&quot;]/div[@class=&quot;bank-info&quot;]</value>
-      <webElementGuid>2170d79b-d701-43c5-af62-cb10205376e0</webElementGuid>
+      <webElementGuid>ec2b04c2-bee3-457a-a296-f88a93a5065c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='001beeea-48ca-4c57-e02d-8483665c7c8e']/ul/li[2]/div</value>
-      <webElementGuid>407c2d48-eaea-419d-95c7-7d8474236e25</webElementGuid>
+      <webElementGuid>ee435dcf-9d10-49d7-b3ce-7d1e2faea56d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Chọn ngân hàng'])[1]/following::div[1]</value>
-      <webElementGuid>68d9ff20-0e61-481b-a4fc-2510f99c80cc</webElementGuid>
+      <webElementGuid>f3de3c5b-0b63-403c-ba98-993f3196b3dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[5]</value>
-      <webElementGuid>caf5373e-ce69-47a6-aa2d-92658264f41a</webElementGuid>
+      <webElementGuid>88cb7691-add6-43ea-9147-0d2d0555c727</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ngân hàng TMCP Đầu tư và Phát triển Việt Nam'])[1]/preceding::div[1]</value>
-      <webElementGuid>57349150-56bb-40c5-b085-06cb87dfc5b8</webElementGuid>
+      <webElementGuid>20d99ba0-cb26-4b88-9dae-16f216666060</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/div</value>
-      <webElementGuid>b9946c07-5c2b-4d23-9bbb-fde5f29c9ad4</webElementGuid>
+      <webElementGuid>24376713-76de-433d-b67f-bbd6d2949519</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Ngân hàng TMCP Ngoại thương Việt Nam' or . = 'Ngân hàng TMCP Ngoại thương Việt Nam')]</value>
-      <webElementGuid>f30646e9-a989-4460-90b4-12e79cf06d39</webElementGuid>
+      <webElementGuid>5babbfa0-eb23-410c-9dd5-2e0fb04d2c0c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

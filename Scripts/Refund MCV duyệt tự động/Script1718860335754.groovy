@@ -201,10 +201,15 @@ if (diffSeconds < 86400 && status=="Thành công" && loaiGD=="Thanh toán" && PT
 				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
-				return false
+				WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+				WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
+				WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
+				WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
+				WebUI.enableSmartWait()
+				WebUI.verifyElementText(findTestObject('Page_Refund Request List/trangthai'), 'Đã duyệt')
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
-                return false
+			  return false
           }}
 		  else {WebUI.verifyTextPresent(expect_msg, false)
 			  return false
@@ -281,7 +286,12 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
-				return false
+				WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+				WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
+				WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
+				WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
+				WebUI.enableSmartWait()
+				WebUI.verifyElementText(findTestObject('Page_Refund Request List/trangthai'), 'Đã duyệt')
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
                 return false
@@ -358,7 +368,12 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
-				return false
+				WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+				WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
+				WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
+				WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
+				WebUI.enableSmartWait()
+				WebUI.verifyElementText(findTestObject('Page_Refund Request List/trangthai'), 'Đã duyệt')
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
                 return false
@@ -433,7 +448,12 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
-				return false
+				WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+				WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
+				WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
+				WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
+				WebUI.enableSmartWait()
+				WebUI.verifyElementText(findTestObject('Page_Refund Request List/trangthai'), 'Đã duyệt')
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
                 return false
@@ -525,7 +545,12 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
-				return false
+				WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+				WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
+				WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
+				WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
+				WebUI.enableSmartWait()
+				WebUI.verifyElementText(findTestObject('Page_Refund Request List/trangthai'), 'Đã duyệt')
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
                 return false
@@ -597,7 +622,12 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
-				return false
+				WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+				WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
+				WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
+				WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
+				WebUI.enableSmartWait()
+				WebUI.verifyElementText(findTestObject('Page_Refund Request List/trangthai'), 'Đã duyệt')
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
                 return false
@@ -671,7 +701,12 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
-				return false
+				WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+				WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
+				WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
+				WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
+				WebUI.enableSmartWait()
+				WebUI.verifyElementText(findTestObject('Page_Refund Request List/trangthai'), 'Đã duyệt')
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
                 return false
@@ -743,7 +778,12 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
-				return false
+				WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+				WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
+				WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
+				WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
+				WebUI.enableSmartWait()
+				WebUI.verifyElementText(findTestObject('Page_Refund Request List/trangthai'), 'Đã duyệt')
           } else {
 			  WebUI.verifyTextPresent('Số dư không đủ để tạo yêu cầu', true)
                 return false

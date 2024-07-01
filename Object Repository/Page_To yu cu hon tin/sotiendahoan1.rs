@@ -7,14 +7,17 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='main']/div[2]/div/div/div/form/div[3]/div[2]/div/span/div/div[2]/input</value>
+         <value>/html/body/div/div/main/div[2]/div/div[1]/div[1]/form/div[3]/div[2]/div/span/div/div[2]/input</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;main&quot;]/div[2]/div/div[1]/div[1]/form/div[3]/div[2]/div/span/div/div[2]/input</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>4d30eb47-5a72-4418-955d-2e0982347b37</webElementGuid>
+      <webElementGuid>d72af1d8-3c83-4d00-b8f3-681d8f39be9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +40,7 @@
       <name>role</name>
       <type>Main</type>
       <value>spinbutton</value>
-      <webElementGuid>79786669-520a-4ddc-b03f-1a7e7c8cb437</webElementGuid>
+      <webElementGuid>b04850f6-da51-4212-a569-d5472c22e3e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +48,7 @@
       <name>aria-valuemin</name>
       <type>Main</type>
       <value>-9007199254740991</value>
-      <webElementGuid>e449f6e7-1a48-4fcb-b283-474685b8e299</webElementGuid>
+      <webElementGuid>3efa1aef-4e7e-4011-b673-b4b46785b7f3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +56,7 @@
       <name>aria-valuenow</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>1fb02f7c-e756-4bde-8d9a-d6f7d5db6367</webElementGuid>
+      <webElementGuid>002f351f-a61d-4e17-848e-3239f161fc7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +64,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>bbe5750b-a47e-475c-9d0d-b0d3e61553e5</webElementGuid>
+      <webElementGuid>cd4eed2c-5f38-4761-a0a2-c2960ef6e425</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +72,7 @@
       <name>disabled</name>
       <type>Main</type>
       <value>disabled</value>
-      <webElementGuid>b6b37b36-45df-4509-aa5c-fde2720b839f</webElementGuid>
+      <webElementGuid>365d3b54-f3ed-4576-876f-dc2ca16f148e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +80,7 @@
       <name>min</name>
       <type>Main</type>
       <value>-9007199254740991</value>
-      <webElementGuid>67372ddf-51e4-4a76-85cc-6b1f9f7cddc9</webElementGuid>
+      <webElementGuid>394bdce3-54cf-4b28-818e-62b8c91a5ff5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -85,7 +88,7 @@
       <name>step</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>0961a8d7-aae7-43ea-919c-1e25b69f756f</webElementGuid>
+      <webElementGuid>d70f5c1f-6e43-4c6a-9b00-5fac091a55e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +96,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-input-number-input</value>
-      <webElementGuid>34985ee6-3841-42af-93f5-851bf3d0fb0b</webElementGuid>
+      <webElementGuid>c68600bc-bc48-4cb9-be3b-f5a8e7b2d6d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -101,7 +104,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;main&quot;]/div[2]/div/div[1]/div[1]/form/div[3]/div[2]/div/span/div/div[2]/input</value>
-      <webElementGuid>3e6a5eae-3a1f-4450-9538-013d9dee1338</webElementGuid>
+      <webElementGuid>522f6b1b-c3df-48f5-ba16-0cfd8f0c32d6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -109,7 +112,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//main[@id='main']/div[2]/div/div/div/form/div[3]/div[2]/div/span/div/div[2]/input</value>
-      <webElementGuid>fb4c5647-39c1-4dff-bc1d-f55a8ecb33c0</webElementGuid>
+      <webElementGuid>5fdefd71-7ada-4a2d-8d44-3e0680e69116</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +120,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[2]/div/span/div/div[2]/input</value>
-      <webElementGuid>97fcb9d8-70c1-45b6-9bbc-1445ad506c6a</webElementGuid>
+      <webElementGuid>71aa55e5-a78a-4c92-86f4-7e81c6679a2a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

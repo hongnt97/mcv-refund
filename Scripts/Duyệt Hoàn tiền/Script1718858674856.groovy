@@ -92,10 +92,12 @@ import java.time.Period
 
 		WebUI.click(findTestObject('Page_Refund Request List/button_Add'))
 
-		WebUI.setText(findTestObject('Page_Create Refund Request/input__transactionid'), "63806762342670")
+		WebUI.setText(findTestObject('Page_Create Refund Request/input__transactionid'), "64380103973565")
 
 		WebUI.enableSmartWait()
-	 textsotienmuonhoan=WebUI.getAttribute(findTestObject('Page_To yu cu hon tin/sotienmuonhoan1'), 'value')
+	 WebUI.setText(findTestObject('Page_Create Refund Request/sotienmuonhoan'), '3000000')
+
+textsotienmuonhoan = WebUI.getAttribute(findTestObject('Page_Create Refund Request/sotienmuonhoan'), 'value')
 		  WebUI.setText(findTestObject('Page_Create Refund Request/textarea__reason'), "djfhjdfhjdfjdj")
 		  textarea_reason= WebUI.getAttribute(findTestObject('Page_Create Refund Request/textarea__reason'), 'value')
 		  textgiatrigd1=WebUI.getAttribute(findTestObject('Page_Create Refund Request/Page_To yu cu hon tin/giatriGD1'), 'value')
@@ -172,7 +174,7 @@ WebUI.click(findTestObject('f1/Page_Dashboard/a_Danh sch ch duyt'))
 
 WebUI.enableSmartWait()
 
-WebUI.setText(findTestObject('Page_Danh sch ch duyt yu cu hon tin/filter'), '63806762342670')
+WebUI.setText(findTestObject('Page_Danh sch ch duyt yu cu hon tin/filter'), '64380103973565')
 
 WebUI.click(findTestObject('Page_Danh sch ch duyt yu cu hon tin/button_Timkiem'))
 
@@ -202,5 +204,11 @@ WebUI.closeBrowser()
 						
 						System.out.println('Balance: ' + soduchodoisoatduyet)
 						WebUI.verifyEqual(Integer.parseInt(oduchodoisoatduyet), a)
+						WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+						WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
+						WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
+						WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
+						WebUI.enableSmartWait()
+						WebUI.verifyElementText(findTestObject('Page_Refund Request List/trangthai'), 'Đã duyệt')
 						WebUI.closeBrowser()
 }

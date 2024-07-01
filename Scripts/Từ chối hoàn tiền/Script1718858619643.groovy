@@ -57,7 +57,7 @@ WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
 
 WebUI.click(findTestObject('Page_Refund Request List/button_Add'))
 
-WebUI.setText(findTestObject('Page_Create Refund Request/input__transactionid'), '63871359473992')
+WebUI.setText(findTestObject('Page_Create Refund Request/input__transactionid'), '64380054026940')
 
 WebUI.enableSmartWait()
 
@@ -162,7 +162,7 @@ if (trusodu <= Integer.parseInt(soduchodoisoat)) {
 
     WebUI.enableSmartWait()
 
-    WebUI.setText(findTestObject('Page_Danh sch ch duyt yu cu hon tin/filter'), '63871359473992')
+    WebUI.setText(findTestObject('Page_Danh sch ch duyt yu cu hon tin/filter'), '64380054026940')
 
     WebUI.click(findTestObject('Page_Danh sch ch duyt yu cu hon tin/button_Timkiem'))
 
@@ -202,6 +202,12 @@ if (trusodu <= Integer.parseInt(soduchodoisoat)) {
     System.out.println('Balance: ' + soduchodoisoattuchoi)
 
     WebUI.verifyEqual(Integer.parseInt(soduchodoisoattuchoi), Integer.parseInt(soduchodoisoat))
+	WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+	WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
+	WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
+	WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
+	WebUI.enableSmartWait()
+	WebUI.verifyElementText(findTestObject('Page_Refund Request List/trangthai'), 'Từ chối')
 
     WebUI.closeBrowser()
 

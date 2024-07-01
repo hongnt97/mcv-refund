@@ -7,14 +7,18 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='approve-btn']</value>
+         <value>/html/body/div[2]/div/div[3]/div/div/div[1]/div/div[3]/div[1]/div[2]/button[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#approve-btn</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;approve-btn&quot;)[count(. | //*[@type = 'button' and @class = 'btn btn-success ladda-button' and @id = 'approve-btn' and (text() = 'Duyệt yêu cầu' or . = 'Duyệt yêu cầu')]) = count(//*[@type = 'button' and @class = 'btn btn-success ladda-button' and @id = 'approve-btn' and (text() = 'Duyệt yêu cầu' or . = 'Duyệt yêu cầu')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>16f5e902-afcc-47a4-be72-81f082878c36</webElementGuid>
+      <webElementGuid>77c7d21f-a4a7-4592-ab17-3f6fb172d911</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +35,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b8d7789d-a069-445a-a59f-9c76b789a3bc</webElementGuid>
+      <webElementGuid>b4f9412a-f036-4c17-9b53-d4d2711c59d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +43,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-success ladda-button</value>
-      <webElementGuid>e82a8a4f-2bbb-494b-a0dd-7f3f3843682a</webElementGuid>
+      <webElementGuid>e307c83c-d41c-4f93-b43d-f081e0bb0845</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +51,7 @@
       <name>id</name>
       <type>Main</type>
       <value>approve-btn</value>
-      <webElementGuid>bdfce547-a1dd-44f2-81d7-06193032b6a1</webElementGuid>
+      <webElementGuid>873458b4-1939-4040-a37b-1d386d93c7f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +59,7 @@
       <name>data-style</name>
       <type>Main</type>
       <value>expand-right</value>
-      <webElementGuid>0242d367-ed95-4859-923c-524ce8a842f6</webElementGuid>
+      <webElementGuid>7670809a-53ce-43fe-8056-b9b3208c3855</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +67,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Duyệt yêu cầu</value>
-      <webElementGuid>a0c35f0d-6e3c-4e41-86b9-63031c35f7a4</webElementGuid>
+      <webElementGuid>e904c799-4595-4e68-8651-e39888c90113</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +75,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;approve-btn&quot;)</value>
-      <webElementGuid>b1863078-0136-48b1-b9c1-c822c01daf54</webElementGuid>
+      <webElementGuid>991a52c4-72f3-4535-b263-607e418967df</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +83,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='approve-btn']</value>
-      <webElementGuid>18888c15-a21a-45fc-aff2-9cb77d6982c7</webElementGuid>
+      <webElementGuid>54b6c845-6ca4-4670-9ff7-ef94c577c3f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +91,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='page-wrapper']/div[3]/div/div/div/div/div[3]/div/div[2]/button[2]</value>
-      <webElementGuid>5c199e37-9d76-4c4c-aff4-4542908f3d50</webElementGuid>
+      <webElementGuid>9922d9f4-4c4b-4bcc-9af5-f2384ca13557</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +99,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Từ chối yêu cầu'])[1]/following::button[1]</value>
-      <webElementGuid>dd7f3ab5-7b7d-4d0c-baa7-fac6e73502d3</webElementGuid>
+      <webElementGuid>1803a5e8-e0d9-4ed0-b4a6-b30454d90fd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +107,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hiển thị từ 1 đến 20 của 31 bản ghi'])[1]/following::button[2]</value>
-      <webElementGuid>fdffd391-6475-48b9-8e70-60f9fd68c1e6</webElementGuid>
+      <webElementGuid>3a4626c2-9b79-4a65-a3db-207d3130393e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +115,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='STT'])[1]/preceding::button[1]</value>
-      <webElementGuid>07331229-e4e6-4e52-9a80-9a326af66934</webElementGuid>
+      <webElementGuid>c15bcf51-b88d-4d30-bdae-0a615e65f9f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +123,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>1ef37314-72e6-4990-bb87-e6ba4224edea</webElementGuid>
+      <webElementGuid>4a424df5-545c-4150-88d6-3f8564757409</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +131,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'approve-btn' and (text() = 'Duyệt yêu cầu' or . = 'Duyệt yêu cầu')]</value>
-      <webElementGuid>f23fe38e-8cfe-4a02-a7d2-bac89e106b67</webElementGuid>
+      <webElementGuid>ea0a8e6a-0806-4861-a1c5-4403eb570bb6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
