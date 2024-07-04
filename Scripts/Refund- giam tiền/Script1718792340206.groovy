@@ -39,7 +39,7 @@ WebUI.setText(findTestObject('Page_Account 9Pay/input_password'), 'Abc@12345')
 
 WebUI.click(findTestObject('Page_Account 9Pay/button_login'))
 
-WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+WebUI.click(findTestObject('Page_Dashboard/quanlygd'))
 
 WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
 

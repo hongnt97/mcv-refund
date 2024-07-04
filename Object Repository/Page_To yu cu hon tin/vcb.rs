@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1ccbcd90-fd28-4562-83b1-5167a6a3a970</webElementGuid>
+      <webElementGuid>19c929e7-87ae-4e71-982d-7a982b3dac32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bank-info</value>
-      <webElementGuid>5879db31-a145-445d-8a01-54d940a971e9</webElementGuid>
+      <webElementGuid>90afc573-a57e-460b-a4e7-48ee2a93b789</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Ngân hàng TMCP Ngoại thương Việt Nam</value>
-      <webElementGuid>b3feced6-35ec-4b8c-b1c1-01034bc6576d</webElementGuid>
+      <webElementGuid>8d006f40-9e7a-45c6-9dec-afe245f9771c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;001beeea-48ca-4c57-e02d-8483665c7c8e&quot;)/ul[@class=&quot;ant-select-dropdown-menu ant-select-dropdown-menu-vertical ant-select-dropdown-menu-root&quot;]/li[@class=&quot;ant-select-dropdown-menu-item ant-select-dropdown-menu-item-active&quot;]/div[@class=&quot;bank-info&quot;]</value>
-      <webElementGuid>ec2b04c2-bee3-457a-a296-f88a93a5065c</webElementGuid>
+      <webElementGuid>fb689451-ca13-4f1b-ae12-998b8bd973de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='001beeea-48ca-4c57-e02d-8483665c7c8e']/ul/li[2]/div</value>
-      <webElementGuid>ee435dcf-9d10-49d7-b3ce-7d1e2faea56d</webElementGuid>
+      <webElementGuid>89f19d2f-4a3f-4167-b9fc-6c714b843054</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Chọn ngân hàng'])[1]/following::div[1]</value>
-      <webElementGuid>f3de3c5b-0b63-403c-ba98-993f3196b3dc</webElementGuid>
+      <webElementGuid>54c6a0f2-55b8-47ae-ae49-168a1753151b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::div[5]</value>
-      <webElementGuid>88cb7691-add6-43ea-9147-0d2d0555c727</webElementGuid>
+      <webElementGuid>1c1319b1-db51-497d-bb9e-c8685883386d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Ngân hàng TMCP Đầu tư và Phát triển Việt Nam'])[1]/preceding::div[1]</value>
-      <webElementGuid>20d99ba0-cb26-4b88-9dae-16f216666060</webElementGuid>
+      <webElementGuid>8ee6fd80-6c85-4b55-89b4-1a755cc009c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/div</value>
-      <webElementGuid>24376713-76de-433d-b67f-bbd6d2949519</webElementGuid>
+      <webElementGuid>0133d3f1-d319-4878-8734-35ea765c72e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Ngân hàng TMCP Ngoại thương Việt Nam' or . = 'Ngân hàng TMCP Ngoại thương Việt Nam')]</value>
-      <webElementGuid>5babbfa0-eb23-410c-9dd5-2e0fb04d2c0c</webElementGuid>
+      <webElementGuid>64b1af69-5ea8-489a-ab2d-538fc6ce4426</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

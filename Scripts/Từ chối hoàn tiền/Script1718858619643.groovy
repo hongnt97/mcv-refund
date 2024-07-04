@@ -51,7 +51,7 @@ soduchodoisoat = textsoduchodoisoat.replace(',', '')
 
 System.out.println('Balance: ' + soduchodoisoat)
 
-WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+WebUI.click(findTestObject('Page_Dashboard/quanlygd'))
 
 WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
 

@@ -66,7 +66,7 @@ import java.time.Period
         
         System.out.println('Balance: ' + soduchodoisoat)
 
-        WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+        WebUI.click(findTestObject('Page_Dashboard/quanlygd'))
 
         WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
 
@@ -92,11 +92,11 @@ if (textngayGD== "—") {
   System.out.println ("Tiếp tục")
 }
 
-Date objDate = new Date();
-System.out.println(objDate.toString())
-String strDateFormat = "HH:MM:ss  dd/MM/yyyy";
-SimpleDateFormat objSDF = new SimpleDateFormat(strDateFormat)
-System.out.println(objSDF.format(objDate))
+Date today = new Date();
+System.out.println(today.toString())
+String hientaiFormat = "hh:mm:ss  dd/MM/yyyy";
+SimpleDateFormat ngaygiohientai = new SimpleDateFormat(hientaiFormat)
+System.out.println(ngaygiohientai.format(today))
 
 
 SimpleDateFormat format = new SimpleDateFormat('HH:mm:ss dd/MM/yyyy')
@@ -110,7 +110,7 @@ Date d2 = null
 try {
   d1 = format.parse(textngayGD)
 
-  d2 = format.parse(objSDF.format(objDate))
+  d2 = format.parse(ngaygiohientai.format(today))
 }
 catch (ParseException e) {
 }
@@ -201,7 +201,7 @@ if (diffSeconds < 86400 && status=="Thành công" && loaiGD=="Thanh toán" && PT
 				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
-				WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+				WebUI.click(findTestObject('Page_Dashboard/quanlygd'))
 				WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
 				WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
 				WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
@@ -286,7 +286,7 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
-				WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+				WebUI.click(findTestObject('Page_Dashboard/quanlygd'))
 				WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
 				WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
 				WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
@@ -368,7 +368,7 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
-				WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+				WebUI.click(findTestObject('Page_Dashboard/quanlygd'))
 				WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
 				WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
 				WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
@@ -448,7 +448,7 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
-				WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+				WebUI.click(findTestObject('Page_Dashboard/quanlygd'))
 				WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
 				WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
 				WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
@@ -545,7 +545,7 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
-				WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+				WebUI.click(findTestObject('Page_Dashboard/quanlygd'))
 				WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
 				WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
 				WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
@@ -622,7 +622,7 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
-				WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+				WebUI.click(findTestObject('Page_Dashboard/quanlygd'))
 				WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
 				WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
 				WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
@@ -701,7 +701,7 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
-				WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+				WebUI.click(findTestObject('Page_Dashboard/quanlygd'))
 				WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
 				WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
 				WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))
@@ -778,7 +778,7 @@ else if (diffSeconds< 86400 && status=="Thành công" && loaiGD=="Thanh toán" &
 				System.out.println('Balance sau hoan: ' + a)
 				System.out.println('trusoduMC: ' + (Integer.parseInt(soduchodoisoat) - trusodu))
 				WebUI.verifyEqual((Integer.parseInt(soduchodoisoat) - trusodu), a)
-				WebUI.click(findTestObject('Page_Dashboard/modulerefund'))
+				WebUI.click(findTestObject('Page_Dashboard/quanlygd'))
 				WebUI.click(findTestObject('Page_Dashboard/a_Refund'))
 				WebUI.setText(findTestObject('Page_Refund Request List/timkiemmgd'), input_transactionid)
 				WebUI.click(findTestObject('Page_Refund Request List/btn timkiem'))

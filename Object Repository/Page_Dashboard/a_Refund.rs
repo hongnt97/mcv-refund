@@ -7,15 +7,15 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;components-nav-refund&quot;]/li[1]/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;components-nav-refund&quot;)/li[1]/a[1][count(. | //*[@href = '/refund' and (text() = 'Refund ' or . = 'Refund ')]) = count(//*[@href = '/refund' and (text() = 'Refund ' or . = 'Refund ')])]</value>
+         <value>//*[@id=&quot;components-nav&quot;]/li[3]/a/span</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#components-nav-refund > li > a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;components-nav-refund&quot;)/li[1]/a[1][count(. | //*[@href = '/refund' and (text() = 'Refund ' or . = 'Refund ')]) = count(//*[@href = '/refund' and (text() = 'Refund ' or . = 'Refund ')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>872a3823-fefd-46c9-9cc5-005570b62e06</webElementGuid>
+      <webElementGuid>8e4116ef-835f-4547-8563-cf4185aa8be2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/refund</value>
-      <webElementGuid>010dbb62-b57f-43f2-9dd1-d04556b91550</webElementGuid>
+      <webElementGuid>ef86e046-9886-4ab8-bbed-743a2fb9318a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Refund </value>
-      <webElementGuid>9aff469f-f1e3-4d44-beac-53c13336a66a</webElementGuid>
+      <webElementGuid>d0803505-bc9e-48a8-9ddc-702a5d647ece</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;components-nav-refund&quot;)/li[1]/a[1]</value>
-      <webElementGuid>aeddc319-775b-4442-9d77-70be8503a863</webElementGuid>
+      <webElementGuid>1647efe4-45b7-41b8-9062-318680d220d9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='components-nav-refund']/li/a</value>
-      <webElementGuid>703117cc-3792-4157-8760-f1fda9874c56</webElementGuid>
+      <webElementGuid>df19c5cf-ae8e-4509-8329-03630d2cdc5f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Refund'])[1]/following::a[1]</value>
-      <webElementGuid>eaa0e446-f7e9-4468-a207-33049f455d02</webElementGuid>
+      <webElementGuid>ba43b00c-6ddb-4821-b3d2-944f1b1dd7f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unsettled Reconciliation Balance Fluctuations Statistics'])[1]/following::a[2]</value>
-      <webElementGuid>6af2e615-b0d9-49b8-9916-80a732fca83e</webElementGuid>
+      <webElementGuid>6fe12923-20c3-4f68-aead-1a0281af20c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Installment Refund Request'])[1]/preceding::a[1]</value>
-      <webElementGuid>91797864-df9b-4704-8cc6-1affc1351424</webElementGuid>
+      <webElementGuid>d67d029d-11b2-4439-abdb-13a45612673b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/refund')]</value>
-      <webElementGuid>a54845ff-711f-41b7-95f9-2da2bc0cb304</webElementGuid>
+      <webElementGuid>11591ce7-34dd-4091-8952-9198f5ff08c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[8]/ul/li/a</value>
-      <webElementGuid>39938709-91a2-4242-8422-b3983f410dce</webElementGuid>
+      <webElementGuid>73aacd01-3640-41cc-b554-f2a3f2ae458d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,6 +113,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/refund' and (text() = 'Refund ' or . = 'Refund ')]</value>
-      <webElementGuid>ea25d119-8c9d-4f40-82fd-996cd4bbcef8</webElementGuid>
+      <webElementGuid>f3f422f6-7bac-4b80-a248-842af07c93bc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,15 +6,19 @@
    <elementGuidId>38bcf095-a706-4dc8-a246-a5bd5f89b3b8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;nav-item-transaction&quot;]/a/span</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#nav-item-transaction > a.nav-link</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='nav-item-transaction']/a</value>
+         <key>BASIC</key>
+         <value>id(&quot;nav-item-transaction&quot;)/a[@class=&quot;nav-link&quot;][count(. | //*[@href = '#' and @class = 'nav-link' and (text() = 'Quản lý giao dịch' or . = 'Quản lý giao dịch')]) = count(//*[@href = '#' and @class = 'nav-link' and (text() = 'Quản lý giao dịch' or . = 'Quản lý giao dịch')])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -29,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>5cdeeee5-9938-4bc7-80a2-a781d3d980f8</webElementGuid>
+      <webElementGuid>db6b4fe9-1521-49b4-80b7-5c2a9674a38a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +41,7 @@
       <name>data-bs-target</name>
       <type>Main</type>
       <value>#components-nav</value>
-      <webElementGuid>940587b9-6906-4cb8-89d1-6450dd3f1501</webElementGuid>
+      <webElementGuid>3ee3be16-b3f8-4c97-b2fc-d8f75ce5e118</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +49,7 @@
       <name>data-bs-toggle</name>
       <type>Main</type>
       <value>collapse</value>
-      <webElementGuid>6ea3b578-3077-4cba-bd07-0927f7b8c9e6</webElementGuid>
+      <webElementGuid>64d5ce67-3be9-4b35-b4de-68b08a837144</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +57,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
-      <webElementGuid>152c62e5-e4bf-4c63-b9c1-fcea1304db6b</webElementGuid>
+      <webElementGuid>8f806d95-9f66-42e2-b660-14f29270991f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,7 +65,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>5479c3b2-4958-4817-80d3-510b8a2ee49e</webElementGuid>
+      <webElementGuid>90092ea8-999e-46b6-80db-1b2172fec280</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +73,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>20300cd9-e100-48fe-9e4a-7098782acf86</webElementGuid>
+      <webElementGuid>be8444bc-0e94-4629-9ff8-bf4ab5df8a4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -77,7 +81,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Quản lý giao dịch</value>
-      <webElementGuid>bd007f6f-8a28-4c61-913c-e267626fbd80</webElementGuid>
+      <webElementGuid>6772b3f6-1cd3-4d6d-ba9e-fb71c43361f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +89,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;nav-item-transaction&quot;)/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>109ffa5a-f483-4d01-8db3-8f20b5e7b30c</webElementGuid>
+      <webElementGuid>8d1c5b94-2f84-4ba9-a8e4-e4e6a50c24b2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -93,7 +97,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='nav-item-transaction']/a</value>
-      <webElementGuid>da584b07-79cc-4183-a555-11cbf1bc6d10</webElementGuid>
+      <webElementGuid>a1e509a5-75fb-4931-b207-fdfcfeaee0e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Thêm mới hóa đơn'])[1]/following::a[1]</value>
-      <webElementGuid>da6405ca-2d50-4326-81a1-2f144deb7c8b</webElementGuid>
+      <webElementGuid>fcc8aa99-fada-43ca-8ff9-e51ce695b633</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Danh sách hóa đơn'])[1]/following::a[2]</value>
-      <webElementGuid>417c9151-ca37-4753-b845-0c42adf1173a</webElementGuid>
+      <webElementGuid>a0705f24-9230-44ea-a9f6-00ae860420a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tra cứu giao dịch'])[1]/preceding::a[1]</value>
-      <webElementGuid>7c271987-a2be-4213-96c8-9eda5539b3a9</webElementGuid>
+      <webElementGuid>4ef660c4-44ab-47ea-a4b9-f95c7a6fc483</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +129,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[7]</value>
-      <webElementGuid>c1c6c3b8-d1bf-4dd8-83f0-c4aa81b9797b</webElementGuid>
+      <webElementGuid>26022f77-aa05-448e-a1d6-b40e20c4b3f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +137,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[7]/a</value>
-      <webElementGuid>4e75ef40-02e3-4c85-854a-f35ef328f2dd</webElementGuid>
+      <webElementGuid>447175cb-0793-49e9-a15f-8569c6c37de0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,6 +145,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '#' and (text() = 'Quản lý giao dịch' or . = 'Quản lý giao dịch')]</value>
-      <webElementGuid>c98216c7-8021-44fb-9380-930e87e48f34</webElementGuid>
+      <webElementGuid>a4434ac0-a02e-4c40-a988-bd160bcdd964</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
